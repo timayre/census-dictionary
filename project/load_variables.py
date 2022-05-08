@@ -15,8 +15,7 @@ def main(save='../census-dict-2021.json'):
                   'DTWP',
                   'EETP',
                   'FIDF',
-                  'FMCF',
-                  'FMGF',
+                  'FMCF', 'FMGF',
                   'HCFMD', 'HCFMF',
                   'HEAP',
                   'HHCD',
@@ -28,7 +27,14 @@ def main(save='../census-dict-2021.json'):
                   'QALFP', 'QALLP',
                   'RELP',
                   'RLGP', 'RLHP', 'RPIP',
-                  'STRD'}
+                  'STRD',
+                  'BEDD',
+                  'HRSP',
+                  'MRED',
+                  'PURP', 'PUR1P', 'PUR5P',
+                  'RNTD',
+                  'VEHD',
+                  'YARP'}
     vars_info = load_index()
     for var_info in vars_info:
         if var_info['code'] not in exclusions:
