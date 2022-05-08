@@ -7,38 +7,14 @@ import os
 import json
 
 
-def main(save='../census-dict-2021.json'):
+def main(save='../census-dict-2021.json', exc='exceptions.json'):
     ## Excluding variable pages that are not in the usual format
-    exclusions = {'ANCP', 'ANC1P', 'ANC2P',
-                  'BPLP', 'BPFP', 'BPMP',
-                  'CDCF', 'CDCUF', 'CDSF', 'CNDCF',
-                  'DTWP',
-                  'EETP',
-                  'FIDF',
-                  'FMCF', 'FMGF',
-                  'HCFMD', 'HCFMF',
-                  'HEAP',
-                  'HHCD',
-                  'HIDD',
-                  'INDP',
-                  'LANP',
-                  'OCC06P', 'OCCP',
-                  'POWP',
-                  'QALFP', 'QALLP',
-                  'RELP',
-                  'RLGP', 'RLHP', 'RPIP',
-                  'STRD',
-                  'BEDD',
-                  'HRSP',
-                  'MRED',
-                  'PURP', 'PUR1P', 'PUR5P',
-                  'RNTD',
-                  'VEHD',
-                  'YARP'}
+    with open(exc) as f_in:
+        exceptions = json.load(f_in)
     vars_info = load_index()
     for var_info in vars_info:
         var_info['category_table'] = load_var_categories(var_info)
-        if var_info['code'] not in exclusions:
+        if var_info['code'] not in exceptions:
             var_info['categories'] = format_categories_simple(var_info['category_table'])
             var_info.pop('category_table')
     census_dict = {'variables': vars_info}
