@@ -37,8 +37,10 @@ def main(save='../census-dict-2021.json'):
                   'YARP'}
     vars_info = load_index()
     for var_info in vars_info:
+        var_info['category_table'] = load_var_categories(var_info)
         if var_info['code'] not in exclusions:
-            var_info['categories'] = load_var_categories(var_info)
+            var_info['categories'] = format_categories_simple(var_info['category_table'])
+            var_info.pop('category_table')
     census_dict = {'variables': vars_info}
     if save:
         with open(save, 'w') as f_out:
@@ -92,10 +94,10 @@ def load_var_categories(var_info, save='htmls', overwrite=False):
     else:
         with open(save_file) as f_in:
             text = f_in.read()
-    return parse_categories(text)
+    return parse_category_table(text)
 
 
-def parse_categories(var_page_text):
+def parse_category_table(var_page_text):
     soup = bs4.BeautifulSoup(var_page_text, 'html.parser')
     tables = soup.find_all(class_='complex-table')
     if not tables:
@@ -105,17 +107,25 @@ def parse_categories(var_page_text):
         print('More than one table found; using first one.',
               file=sys.stderr)
     table = tables[0]
-    headings = table.thead.find_all('th')
-    if headings[0].text.strip() != 'Code' or \
-            headings[1].text.strip() not in ('Category', 'Categories'):
+    headings = table.thead.find_all('th') if table.thead else []
+    cats = []
+    for row in table.tbody.find_all('tr'):
+        vals = [elem.text.strip() for elem in row.find_all('td')]
+        cats.append(vals)
+    return {'head': [h.text.strip() for h in headings], 'rows': cats}
+
+
+def format_categories_simple(category_table):
+    headings = category_table['head']
+    if headings[0] != 'Code' or \
+            headings[1] not in ('Category', 'Categories'):
         raise Exception(f'Unexpected heading(s): {headings}')
     if len(headings) > 2:
         print(f'Additional columns found: {headings[2:]}',
               file=sys.stderr)
     cats = []
-    for row in table.tbody.find_all('tr'):
-        vals = [elem.text for elem in row.find_all('td')]
-        cats.append({'code': vals[0], 'category': vals[1]})
+    for row in category_table['rows']:
+        cats.append({'code': row[0], 'category': row[1]})
     return cats
 
 
