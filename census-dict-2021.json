@@ -8059,83 +8059,68 @@
       "release": "June 2022",
       "new_2021": false,
       "url": "https://www.abs.gov.au/census/guide-census-data/census-dictionary/2021/variables-topic/household-and-families/count-dependent-children-family-cdcf",
-      "category_table": {
-        "head": [
-          "Code",
-          "Category"
-        ],
-        "rows": [
-          [
-            "Couple families with:"
-          ],
-          [
-            "00",
-            "No dependent children"
-          ],
-          [
-            "01",
-            "One dependent child"
-          ],
-          [
-            "02",
-            "Two dependent children"
-          ],
-          [
-            "03",
-            "Three dependent children"
-          ],
-          [
-            "04",
-            "Four dependent children"
-          ],
-          [
-            "05",
-            "Five dependent children"
-          ],
-          [
-            "06",
-            "Six or more dependent children"
-          ],
-          [
-            "One parent family with:"
-          ],
-          [
-            "07",
-            "No dependent children"
-          ],
-          [
-            "08",
-            "One dependent child"
-          ],
-          [
-            "09",
-            "Two dependent children"
-          ],
-          [
-            "10",
-            "Three dependent children"
-          ],
-          [
-            "11",
-            "Four dependent children"
-          ],
-          [
-            "12",
-            "Five dependent children"
-          ],
-          [
-            "13",
-            "Six or more dependent children"
-          ],
-          [
-            "Not applicable:"
-          ],
-          [
-            "@@",
-            "Not applicable"
-          ]
-        ]
-      }
+      "categories": [
+        {
+          "code": "00",
+          "category": "Couple family with no dependent children"
+        },
+        {
+          "code": "01",
+          "category": "Couple family with one dependent child"
+        },
+        {
+          "code": "02",
+          "category": "Couple family with two dependent children"
+        },
+        {
+          "code": "03",
+          "category": "Couple family with three dependent children"
+        },
+        {
+          "code": "04",
+          "category": "Couple family with four dependent children"
+        },
+        {
+          "code": "05",
+          "category": "Couple family with five dependent children"
+        },
+        {
+          "code": "06",
+          "category": "Couple family with six or more dependent children"
+        },
+        {
+          "code": "07",
+          "category": "One parent family no dependent children"
+        },
+        {
+          "code": "08",
+          "category": "One parent family one dependent child"
+        },
+        {
+          "code": "09",
+          "category": "One parent family two dependent children"
+        },
+        {
+          "code": "10",
+          "category": "One parent family three dependent children"
+        },
+        {
+          "code": "11",
+          "category": "One parent family four dependent children"
+        },
+        {
+          "code": "12",
+          "category": "One parent family five dependent children"
+        },
+        {
+          "code": "13",
+          "category": "One parent family six or more dependent children"
+        },
+        {
+          "code": "@@",
+          "category": "Not applicable"
+        }
+      ]
     },
     {
       "code": "CDCUF",
@@ -8144,80 +8129,68 @@
       "release": "June 2022",
       "new_2021": true,
       "url": "https://www.abs.gov.au/census/guide-census-data/census-dictionary/2021/variables-topic/household-and-families/count-dependent-children-under-15-family-cdcuf",
-      "category_table": {
-        "head": [
-          "Code",
-          "Category"
-        ],
-        "rows": [
-          [
-            "Couple family with:"
-          ],
-          [
-            "00",
-            "No dependent children under 15 years"
-          ],
-          [
-            "01",
-            "One dependent child under 15 years"
-          ],
-          [
-            "02",
-            "Two dependent children under 15 years"
-          ],
-          [
-            "03",
-            "Three dependent children under 15 years"
-          ],
-          [
-            "04",
-            "Four dependent children under 15 years"
-          ],
-          [
-            "05",
-            "Five dependent children under 15 years"
-          ],
-          [
-            "06",
-            "Six or more dependent children under 15 years"
-          ],
-          [
-            "One parent family with:"
-          ],
-          [
-            "07",
-            "No dependent children under 15 years"
-          ],
-          [
-            "08",
-            "One dependent child under 15 years"
-          ],
-          [
-            "09",
-            "Two dependent children under 15 years"
-          ],
-          [
-            "10",
-            "Three dependent children under 15 years"
-          ],
-          [
-            "11",
-            "Four dependent children under 15 years"
-          ],
-          [
-            "12",
-            "Five dependent children under 15 years"
-          ],
-          [
-            "13",
-            "Six or more dependent children under 15 years"
-          ],
-          [
-            "@@",
-            "Not applicable"
-          ]
-        ]
-      }
+      "categories": [
+        {
+          "code": "00",
+          "category": "Couple family with no dependent children under 15 years"
+        },
+        {
+          "code": "01",
+          "category": "Couple family with one dependent child under 15 years"
+        },
+        {
+          "code": "02",
+          "category": "Couple family with two dependent children under 15 years"
+        },
+        {
+          "code": "03",
+          "category": "Couple family with three dependent children under 15 years"
+        },
+        {
+          "code": "04",
+          "category": "Couple family with four dependent children under 15 years"
+        },
+        {
+          "code": "05",
+          "category": "Couple family with five dependent children under 15 years"
+        },
+        {
+          "code": "06",
+          "category": "Couple family with six or more dependent children under 15 years"
+        },
+        {
+          "code": "07",
+          "category": "One parent family with no dependent children under 15 years"
+        },
+        {
+          "code": "08",
+          "category": "One parent family with one dependent child under 15 years"
+        },
+        {
+          "code": "09",
+          "category": "One parent family with two dependent children under 15 years"
+        },
+        {
+          "code": "10",
+          "category": "One parent family with three dependent children under 15 years"
+        },
+        {
+          "code": "11",
+          "category": "One parent family with four dependent children under 15 years"
+        },
+        {
+          "code": "12",
+          "category": "One parent family with five dependent children under 15 years"
+        },
+        {
+          "code": "13",
+          "category": "One parent family with six or more dependent children under 15 years"
+        },
+        {
+          "code": "@@",
+          "category": "Not applicable"
+        }
+      ]
     },
     {
       "code": "CDPP",
@@ -8286,80 +8259,68 @@
       "release": "June 2022",
       "new_2021": true,
       "url": "https://www.abs.gov.au/census/guide-census-data/census-dictionary/2021/variables-topic/household-and-families/count-dependent-students-15-24-years-family-cdsf",
-      "category_table": {
-        "head": [
-          "Code",
-          "Category"
-        ],
-        "rows": [
-          [
-            "Couple family with:"
-          ],
-          [
-            "00",
-            "No dependent students (15-24 years)"
-          ],
-          [
-            "01",
-            "One dependent student (15-24 years)"
-          ],
-          [
-            "02",
-            "Two dependent students (15-24 years)"
-          ],
-          [
-            "03",
-            "Three dependent students (15-24 years)"
-          ],
-          [
-            "04",
-            "Four dependent students (15-24 years)"
-          ],
-          [
-            "05",
-            "Five dependent students (15-24 years)"
-          ],
-          [
-            "06",
-            "Six or more dependent students (15-24 years)"
-          ],
-          [
-            "One parent family with:"
-          ],
-          [
-            "07",
-            "No dependent students (15-24 years)"
-          ],
-          [
-            "08",
-            "One dependent student (15-24 years)"
-          ],
-          [
-            "09",
-            "Two dependent students (15-24 years)"
-          ],
-          [
-            "10",
-            "Three dependent students (15-24 years)"
-          ],
-          [
-            "11",
-            "Four dependent students (15-24 years)"
-          ],
-          [
-            "12",
-            "Five dependent students (15-24 years)"
-          ],
-          [
-            "13",
-            "Six or more dependent students (15-24 years)"
-          ],
-          [
-            "@@",
-            "Not applicable"
-          ]
-        ]
-      }
+      "categories": [
+        {
+          "code": "00",
+          "category": "Couple family with no dependent students (15-24 years)"
+        },
+        {
+          "code": "01",
+          "category": "Couple family with one dependent student (15-24 years)"
+        },
+        {
+          "code": "02",
+          "category": "Couple family with two dependent students (15-24 years)"
+        },
+        {
+          "code": "03",
+          "category": "Couple family with three dependent students (15-24 years)"
+        },
+        {
+          "code": "04",
+          "category": "Couple family with four dependent students (15-24 years)"
+        },
+        {
+          "code": "05",
+          "category": "Couple family with five dependent students (15-24 years)"
+        },
+        {
+          "code": "06",
+          "category": "Couple family with six or more dependent students (15-24 years)"
+        },
+        {
+          "code": "07",
+          "category": "One parent family with no dependent students (15-24 years)"
+        },
+        {
+          "code": "08",
+          "category": "One parent family with one dependent student (15-24 years)"
+        },
+        {
+          "code": "09",
+          "category": "One parent family with two dependent students (15-24 years)"
+        },
+        {
+          "code": "10",
+          "category": "One parent family with three dependent students (15-24 years)"
+        },
+        {
+          "code": "11",
+          "category": "One parent family with four dependent students (15-24 years)"
+        },
+        {
+          "code": "12",
+          "category": "One parent family with five dependent students (15-24 years)"
+        },
+        {
+          "code": "13",
+          "category": "One parent family with six or more dependent students (15-24 years)"
+        },
+        {
+          "code": "@@",
+          "category": "Not applicable"
+        }
+      ]
     },
     {
       "code": "CHCAREP",
@@ -8496,83 +8457,68 @@
       "release": "June 2022",
       "new_2021": false,
       "url": "https://www.abs.gov.au/census/guide-census-data/census-dictionary/2021/variables-topic/household-and-families/count-non-dependent-children-family-cndcf",
-      "category_table": {
-        "head": [
-          "Code",
-          "Category"
-        ],
-        "rows": [
-          [
-            "Couple families with:"
-          ],
-          [
-            "00",
-            "No non-dependent children"
-          ],
-          [
-            "01",
-            "One non-dependent child"
-          ],
-          [
-            "02",
-            "Two non-dependent children"
-          ],
-          [
-            "03",
-            "Three non-dependent children"
-          ],
-          [
-            "04",
-            "Four non-dependent children"
-          ],
-          [
-            "05",
-            "Five non-dependent children"
-          ],
-          [
-            "06",
-            "Six or more non-dependent children"
-          ],
-          [
-            "One parent family with:"
-          ],
-          [
-            "07",
-            "No non-dependent children"
-          ],
-          [
-            "08",
-            "One non-dependent child"
-          ],
-          [
-            "09",
-            "Two non-dependent children"
-          ],
-          [
-            "10",
-            "Three non-dependent children"
-          ],
-          [
-            "11",
-            "Four non-dependent children"
-          ],
-          [
-            "12",
-            "Five non-dependent children"
-          ],
-          [
-            "13",
-            "Six or more non-dependent children"
-          ],
-          [
-            "Not applicable:"
-          ],
-          [
-            "@@",
-            "Not applicable"
-          ]
-        ]
-      }
+      "categories": [
+        {
+          "code": "00",
+          "category": "Couple families with no non-dependent children"
+        },
+        {
+          "code": "01",
+          "category": "Couple families with one non-dependent child"
+        },
+        {
+          "code": "02",
+          "category": "Couple families with two non-dependent children"
+        },
+        {
+          "code": "03",
+          "category": "Couple families with three non-dependent children"
+        },
+        {
+          "code": "04",
+          "category": "Couple families with four non-dependent children"
+        },
+        {
+          "code": "05",
+          "category": "Couple families with five non-dependent children"
+        },
+        {
+          "code": "06",
+          "category": "Couple families with six or more non-dependent children"
+        },
+        {
+          "code": "07",
+          "category": "One parent family with no non-dependent children"
+        },
+        {
+          "code": "08",
+          "category": "One parent family with one non-dependent child"
+        },
+        {
+          "code": "09",
+          "category": "One parent family with two non-dependent children"
+        },
+        {
+          "code": "10",
+          "category": "One parent family with three non-dependent children"
+        },
+        {
+          "code": "11",
+          "category": "One parent family with four non-dependent children"
+        },
+        {
+          "code": "12",
+          "category": "One parent family with five non-dependent children"
+        },
+        {
+          "code": "13",
+          "category": "One parent family with six or more non-dependent children"
+        },
+        {
+          "code": "@@",
+          "category": "Not applicable"
+        }
+      ]
     },
     {
       "code": "COARASP",

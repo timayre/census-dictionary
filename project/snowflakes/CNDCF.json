@@ -1,0 +1,62 @@
+[
+  {
+    "code": "00",
+    "category": "Couple families with no non-dependent children"
+  },
+  {
+    "code": "01",
+    "category": "Couple families with one non-dependent child"
+  },
+  {
+    "code": "02",
+    "category": "Couple families with two non-dependent children"
+  },
+  {
+    "code": "03",
+    "category": "Couple families with three non-dependent children"
+  },
+  {
+    "code": "04",
+    "category": "Couple families with four non-dependent children"
+  },
+  {
+    "code": "05",
+    "category": "Couple families with five non-dependent children"
+  },
+  {
+    "code": "06",
+    "category": "Couple families with six or more non-dependent children"
+  },
+  {
+    "code": "07",
+    "category": "One parent family with no non-dependent children"
+  },
+  {
+    "code": "08",
+    "category": "One parent family with one non-dependent child"
+  },
+  {
+    "code": "09",
+    "category": "One parent family with two non-dependent children"
+  },
+  {
+    "code": "10",
+    "category": "One parent family with three non-dependent children"
+  },
+  {
+    "code": "11",
+    "category": "One parent family with four non-dependent children"
+  },
+  {
+    "code": "12",
+    "category": "One parent family with five non-dependent children"
+  },
+  {
+    "code": "13",
+    "category": "One parent family with six or more non-dependent children"
+  },
+  {
+    "code": "@@",
+    "category": "Not applicable"
+  }
+]

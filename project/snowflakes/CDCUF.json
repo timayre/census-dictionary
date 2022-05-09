@@ -1,0 +1,62 @@
+[
+  {
+    "code": "00",
+    "category": "Couple family with no dependent children under 15 years"
+  },
+  {
+    "code": "01",
+    "category": "Couple family with one dependent child under 15 years"
+  },
+  {
+    "code": "02",
+    "category": "Couple family with two dependent children under 15 years"
+  },
+  {
+    "code": "03",
+    "category": "Couple family with three dependent children under 15 years"
+  },
+  {
+    "code": "04",
+    "category": "Couple family with four dependent children under 15 years"
+  },
+  {
+    "code": "05",
+    "category": "Couple family with five dependent children under 15 years"
+  },
+  {
+    "code": "06",
+    "category": "Couple family with six or more dependent children under 15 years"
+  },
+  {
+    "code": "07",
+    "category": "One parent family with no dependent children under 15 years"
+  },
+  {
+    "code": "08",
+    "category": "One parent family with one dependent child under 15 years"
+  },
+  {
+    "code": "09",
+    "category": "One parent family with two dependent children under 15 years"
+  },
+  {
+    "code": "10",
+    "category": "One parent family with three dependent children under 15 years"
+  },
+  {
+    "code": "11",
+    "category": "One parent family with four dependent children under 15 years"
+  },
+  {
+    "code": "12",
+    "category": "One parent family with five dependent children under 15 years"
+  },
+  {
+    "code": "13",
+    "category": "One parent family with six or more dependent children under 15 years"
+  },
+  {
+    "code": "@@",
+    "category": "Not applicable"
+  }
+]

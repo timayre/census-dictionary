@@ -1,0 +1,17 @@
+[
+    {"code": "00", "category": "Couple family with no dependent children"},
+    {"code": "01", "category": "Couple family with one dependent child"},
+    {"code": "02", "category": "Couple family with two dependent children"},
+    {"code": "03", "category": "Couple family with three dependent children"},
+    {"code": "04", "category": "Couple family with four dependent children"},
+    {"code": "05", "category": "Couple family with five dependent children"},
+    {"code": "06", "category": "Couple family with six or more dependent children"},
+    {"code": "07", "category": "One parent family no dependent children"},
+    {"code": "08", "category": "One parent family one dependent child"},
+    {"code": "09", "category": "One parent family two dependent children"},
+    {"code": "10", "category": "One parent family three dependent children"},
+    {"code": "11", "category": "One parent family four dependent children"},
+    {"code": "12", "category": "One parent family five dependent children"},
+    {"code": "13", "category": "One parent family six or more dependent children"},
+    {"code": "@@", "category": "Not applicable"}
+]

@@ -33,16 +33,16 @@
     "multitable": true
   },
   "CDCF": {
-    "skip": true
+    "file": "snowflakes/CDCF.json"
   },
   "CDCUF": {
-    "skip": true
+    "file": "snowflakes/CDCUF.json"
   },
   "CDSF": {
-    "skip": true
+    "file": "snowflakes/CDSF.json"
   },
   "CNDCF": {
-    "skip": true
+    "file": "snowflakes/CNDCF.json"
   },
   "DTWP": {
     "indented": true,
