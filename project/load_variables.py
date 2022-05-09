@@ -17,17 +17,7 @@ def main(save='../census-dict-2021.json', exc='exceptions.json'):
         multi = varcode in exceptions and exceptions[varcode].get('multitable')
         var_info['category_table'] = load_var_categories(var_info, multi=multi)
         if varcode in exceptions:
-            var_except = exceptions[varcode]
-            rows = var_info['category_table']['rows']
-            if var_except.get('indented'):
-                rows = format_rows_indented(rows)
-            if var_except.get('hyphen_sep'):
-                rows = format_rows_hyphensep(rows)
-            if var_except.get('subheadings'):
-                rows = format_rows_subheadings(rows)
-            if var_except.get('multilevel'):
-                rows = format_rows_multilev(rows)
-            var_info['category_table']['rows'] = rows
+            var_info['category_table']['rows'] = format_rows(var_info, exceptions[varcode])
         if varcode not in exceptions or \
                 not(exceptions[varcode].get('skip') or exceptions[varcode].get('numeric')):
             try:
@@ -126,6 +116,19 @@ def format_categories_simple(category_table, check_headings=False):
             raise Exception('less than 2 columns')
         cats.append({'code': row[0], 'category': row[1]})
     return cats
+
+
+def format_rows(var_info, var_except):
+    rows = var_info['category_table']['rows']
+    if var_except.get('indented'):
+        rows = format_rows_indented(rows)
+    if var_except.get('hyphen_sep'):
+        rows = format_rows_hyphensep(rows)
+    if var_except.get('subheadings'):
+        rows = format_rows_subheadings(rows)
+    if var_except.get('multilevel'):
+        rows = format_rows_multilev(rows)
+    return rows
 
 
 def format_rows_indented(rows):
