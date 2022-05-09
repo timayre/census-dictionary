@@ -14,17 +14,23 @@ def main(save='../census-dict-2021.json', exc='exceptions.json'):
     vars_info = load_index()
     for var_info in vars_info:
         varcode =  var_info['code']
-        multi = varcode in exceptions and exceptions[varcode].get('multitable')
+        multi = exceptions.get(varcode, {}).get('multitable')
+        file = exceptions.get(varcode, {}).get('file')
+        skip = exceptions.get(varcode, {}).get('skip')
+        numeric = exceptions.get(varcode, {}).get('numeric')
         var_info['category_table'] = load_var_categories(var_info, multi=multi)
         if varcode in exceptions:
             var_info['category_table']['rows'] = format_rows(var_info, exceptions[varcode])
-        if varcode not in exceptions or \
-                not(exceptions[varcode].get('skip') or exceptions[varcode].get('numeric')):
+        if varcode not in exceptions or not(skip or numeric or file):
             try:
                 var_info['categories'] = format_categories_simple(var_info['category_table'])
                 var_info.pop('category_table')
             except:
                 print(f'skipping {varcode=}')
+        if file:
+            with open(file) as f_in:
+                var_info['categories'] = json.load(f_in)
+                var_info.pop('category_table')
     census_dict = {'variables': vars_info}
     if save:
         with open(save, 'w') as f_out:
