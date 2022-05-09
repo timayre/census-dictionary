@@ -32,28 +32,43 @@
     "multilevel": true,
     "multitable": true
   },
-  "CDCF": {},
-  "CDCUF": {},
-  "CDSF": {},
-  "CNDCF": {},
+  "CDCF": {
+    "skip": true
+  },
+  "CDCUF": {
+    "skip": true
+  },
+  "CDSF": {
+    "skip": true
+  },
+  "CNDCF": {
+    "skip": true
+  },
   "DTWP": {
     "indented": true,
     "multilevel": true
   },
-  "EETP": {},
-  "FIDF": {},
+  "EETP": {
+    "skip": true
+  },
+  "FIDF": {
+    "skip": true
+  },
   "FMCF": {
     "indented": true,
     "multilevel": true
   },
   "FMGF": {
-    "multilevel": true
+    "multilevel": true,
+    "subheadings": true
   },
   "HCFMD": {
-    "multilevel": true
+    "multilevel": true,
+    "subheadings": true
   },
   "HCFMF": {
-    "multilevel": true
+    "multilevel": true,
+    "subheadings": true
   },
   "HEAP": {
     "indented": true,
@@ -61,16 +76,20 @@
   },
   "HHCD": {
     "indented": true,
-    "multilevel": true
+    "multilevel": true,
+    "subheadings": true
   },
-  "HIDD": {},
+  "HIDD": {
+    "skip": true
+  },
   "HRSP": {
     "numeric": true
   },
   "INDP": {
     "indented": true,
     "multilevel": true,
-    "multitable": true
+    "multitable": true,
+    "hyphen_sep": true
   },
   "LANP": {
     "indented": true,
@@ -83,17 +102,27 @@
   "OCC06P": {
     "indented": true,
     "multilevel": true,
-    "multitable": true
+    "multitable": true,
+    "subheadings": true
   },
   "OCCP": {
     "indented": true,
     "multilevel": true,
-    "multitable": true
+    "multitable": true,
+    "subheadings": true
   },
-  "POWP": {},
-  "PUR1P": {},
-  "PUR5P": {},
-  "PURP": {},
+  "POWP": {
+    "skip": true
+  },
+  "PUR1P": {
+    "skip": true
+  },
+  "PUR5P": {
+    "skip": true
+  },
+  "PURP": {
+    "skip": true
+  },
   "QALFP": {
     "indented": true,
     "multilevel": true,
@@ -106,15 +135,24 @@
   "RELP": {
     "indented": true,
     "multilevel": true,
-    "multitable": true
+    "multitable": true,
+    "subheadings": true
   },
-  "RLGP": {},
-  "RLHP": {},
+  "RLGP": {
+    "skip": true
+  },
+  "RLHP": {
+    "skip": true
+  },
   "RNTD": {
     "numeric": true
   },
-  "RPIP": {},
-  "STRD": {},
+  "RPIP": {
+    "skip": true
+  },
+  "STRD": {
+    "skip": true
+  },
   "VEHD": {
     "numeric": true
   },

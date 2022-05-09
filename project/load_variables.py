@@ -13,10 +13,28 @@ def main(save='../census-dict-2021.json', exc='exceptions.json'):
         exceptions = json.load(f_in)
     vars_info = load_index()
     for var_info in vars_info:
-        var_info['category_table'] = load_var_categories(var_info)
-        if var_info['code'] not in exceptions:
-            var_info['categories'] = format_categories_simple(var_info['category_table'])
-            var_info.pop('category_table')
+        varcode =  var_info['code']
+        multi = varcode in exceptions and exceptions[varcode].get('multitable')
+        var_info['category_table'] = load_var_categories(var_info, multi=multi)
+        if varcode in exceptions:
+            var_except = exceptions[varcode]
+            rows = var_info['category_table']['rows']
+            if var_except.get('indented'):
+                rows = format_rows_indented(rows)
+            if var_except.get('hyphen_sep'):
+                rows = format_rows_hyphensep(rows)
+            if var_except.get('subheadings'):
+                rows = format_rows_subheadings(rows)
+            if var_except.get('multilevel'):
+                rows = format_rows_multilev(rows)
+            var_info['category_table']['rows'] = rows
+        if varcode not in exceptions or \
+                not(exceptions[varcode].get('skip') or exceptions[varcode].get('numeric')):
+            try:
+                var_info['categories'] = format_categories_simple(var_info['category_table'])
+                var_info.pop('category_table')
+            except:
+                print(f'skipping {varcode=}')
     census_dict = {'variables': vars_info}
     if save:
         with open(save, 'w') as f_out:
@@ -60,7 +78,7 @@ def parse_index(index_page_text):
     return vars_info
 
 
-def load_var_categories(var_info, save='htmls', overwrite=False):
+def load_var_categories(var_info, save='htmls', overwrite=False, multi=False):
     save_file = os.path.join(save, f'{var_info["code"]}.html') if save else ''
     if overwrite or not os.path.exists(save_file):
         text = requests.get(var_info['url']).text
@@ -70,39 +88,61 @@ def load_var_categories(var_info, save='htmls', overwrite=False):
     else:
         with open(save_file) as f_in:
             text = f_in.read()
-    return parse_category_table(text)
+    return parse_category_table(text, multi)
 
 
-def parse_category_table(var_page_text):
+def parse_category_table(var_page_text, multi=False):
     soup = bs4.BeautifulSoup(var_page_text, 'html.parser')
     tables = soup.find_all(class_='complex-table')
     if not tables:
         print('No "complex-table" found.',
               file=sys.stderr)
-    if len(tables) > 1:
-        print('More than one table found; using first one.',
-              file=sys.stderr)
-    table = tables[0]
-    headings = table.thead.find_all('th') if table.thead else []
+    if not multi:
+        if len(tables) > 1:
+            print('More than one table found; using first one.',
+                  file=sys.stderr)
+        tables = tables[:1]
+    headings = tables[0].thead.find_all('th') if tables[0].thead else []
     cats = []
-    for row in table.tbody.find_all('tr'):
-        vals = [elem.text.strip() for elem in row.find_all('td')]
-        cats.append(vals)
+    for table in tables:
+        for row in table.tbody.find_all('tr'):
+            vals = [elem.text.strip() for elem in row.find_all('td')]
+            cats.append(vals)
     return {'head': [h.text.strip() for h in headings], 'rows': cats}
 
 
-def format_categories_simple(category_table):
-    headings = category_table['head']
-    if headings[0] != 'Code' or \
-            headings[1] not in ('Category', 'Categories'):
-        raise Exception(f'Unexpected heading(s): {headings}')
-    if len(headings) > 2:
-        print(f'Additional columns found: {headings[2:]}',
-              file=sys.stderr)
+def format_categories_simple(category_table, check_headings=False):
+    if check_headings:
+        headings = category_table['head']
+        if headings[0] != 'Code' or \
+                headings[1] not in ('Category', 'Categories'):
+            raise Exception(f'Unexpected heading(s): {headings}')
+        if len(headings) > 2:
+            print(f'Additional columns found: {headings[2:]}',
+                file=sys.stderr)
     cats = []
     for row in category_table['rows']:
+        if len(row) < 2:
+            raise Exception('less than 2 columns')
         cats.append({'code': row[0], 'category': row[1]})
     return cats
+
+
+def format_rows_indented(rows):
+    return [[c for c in row if c] for row in rows]
+
+
+def format_rows_hyphensep(rows):
+    return [r[0].split(' - ', 1) for r in rows if r[0] != 'Supplementary Codes']
+
+
+def format_rows_subheadings(rows):
+    return [r for r in rows if len(r) >= 2]
+
+
+def format_rows_multilev(rows):
+    maxchars = max(len(r[0]) for r in rows if r)
+    return [r for r in rows if r and len(r[0]) == maxchars] 
 
 
 if __name__ == '__main__':
