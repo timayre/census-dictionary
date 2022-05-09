@@ -9771,57 +9771,44 @@
       "release": "June 2022",
       "new_2021": false,
       "url": "https://www.abs.gov.au/census/guide-census-data/census-dictionary/2021/variables-topic/income-and-work/family-income-derivation-indicator-fidf",
-      "category_table": {
-        "head": [
-          "Code",
-          "Category",
-          "",
-          ""
-        ],
-        "rows": [
-          [],
-          [
-            "All incomes stated",
-            "One or more incomes not stated"
-          ],
-          [
-            "1",
-            "No negative incomes stated",
-            "3",
-            "No negative incomes stated"
-          ],
-          [
-            "2",
-            "One or more negative incomes stated",
-            "4",
-            "One or more negative incomes stated"
-          ],
-          [],
-          [
-            "Incomes stated for all members present",
-            "One or more incomes of members present not stated"
-          ],
-          [
-            "5",
-            "No negative incomes stated",
-            "7",
-            "No negative incomes stated"
-          ],
-          [
-            "6",
-            "One or more negative incomes stated",
-            "8",
-            "One or more negative incomes stated"
-          ],
-          [
-            "Not applicable"
-          ],
-          [
-            "@",
-            "Not applicable"
-          ]
-        ]
-      }
+      "categories": [
+        {
+          "code": "1",
+          "category": "No members aged 15 years and over temporarily absent - All incomes stated - No negative incomes stated"
+        },
+        {
+          "code": "2",
+          "category": "No members aged 15 years and over temporarily absent - All incomes stated - One or more negative incomes stated"
+        },
+        {
+          "code": "3",
+          "category": "No members aged 15 years and over temporarily absent - One or more incomes not stated - No negative incomes stated"
+        },
+        {
+          "code": "4",
+          "category": "No members aged 15 years and over temporarily absent - One or more incomes not stated - One or more negative incomes stated"
+        },
+        {
+          "code": "5",
+          "category": "One or more members aged 15 years and over temporarily absent - Incomes stated for all members present - No negative incomes stated"
+        },
+        {
+          "code": "6",
+          "category": "One or more members aged 15 years and over temporarily absent - Incomes stated for all members present - One or more negative incomes stated"
+        },
+        {
+          "code": "7",
+          "category": "One or more members aged 15 years and over temporarily absent - One or more incomes or members present not stated - No negative incomes stated"
+        },
+        {
+          "code": "8",
+          "category": "One or more members aged 15 years and over temporarily absent - One or more incomes or members present not stated - One or more negative incomes stated"
+        },
+        {
+          "code": "@",
+          "category": "Not applicable"
+        }
+      ]
     },
     {
       "code": "FINASF",
@@ -10774,65 +10761,44 @@
       "release": "June 2022",
       "new_2021": false,
       "url": "https://www.abs.gov.au/census/guide-census-data/census-dictionary/2021/variables-topic/income-and-work/household-income-derivation-indicator-hidd",
-      "category_table": {
-        "head": [
-          "Code",
-          "Category"
-        ],
-        "rows": [
-          [],
-          [
-            "All incomes stated"
-          ],
-          [
-            "1",
-            "No negative incomes stated"
-          ],
-          [
-            "2",
-            "One or more negative incomes stated"
-          ],
-          [
-            "One or more incomes not stated"
-          ],
-          [
-            "3",
-            "No negative incomes stated"
-          ],
-          [
-            "4",
-            "One or more negative incomes stated"
-          ],
-          [],
-          [
-            "Incomes stated for all members present"
-          ],
-          [
-            "5",
-            "No negative incomes stated"
-          ],
-          [
-            "6",
-            "One or more negative incomes stated"
-          ],
-          [
-            "One or more incomes or members present not stated"
-          ],
-          [
-            "7",
-            "No negative incomes stated"
-          ],
-          [
-            "8",
-            "One or more negative incomes stated"
-          ],
-          [],
-          [
-            "@",
-            "Not applicable"
-          ]
-        ]
-      }
+      "categories": [
+        {
+          "code": "1",
+          "category": "No members aged 15 years and over temporarily absent - All incomes stated - No negative incomes stated"
+        },
+        {
+          "code": "2",
+          "category": "No members aged 15 years and over temporarily absent - All incomes stated - One or more negative incomes stated"
+        },
+        {
+          "code": "3",
+          "category": "No members aged 15 years and over temporarily absent - One or more incomes not stated - No negative incomes stated"
+        },
+        {
+          "code": "4",
+          "category": "No members aged 15 years and over temporarily absent - One or more incomes not stated - One or more negative incomes stated"
+        },
+        {
+          "code": "5",
+          "category": "One or more members aged 15 years and over temporarily absent - Incomes stated for all members present - No negative incomes stated"
+        },
+        {
+          "code": "6",
+          "category": "One or more members aged 15 years and over temporarily absent - Incomes stated for all members present - One or more negative incomes stated"
+        },
+        {
+          "code": "7",
+          "category": "One or more members aged 15 years and over temporarily absent - One or more incomes or members present not stated - No negative incomes stated"
+        },
+        {
+          "code": "8",
+          "category": "One or more members aged 15 years and over temporarily absent - One or more incomes or members present not stated - One or more negative incomes stated"
+        },
+        {
+          "code": "@",
+          "category": "Not applicable"
+        }
+      ]
     },
     {
       "code": "HIED",

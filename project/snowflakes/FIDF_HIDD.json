@@ -1,0 +1,11 @@
+[
+    {"code": "1", "category": "No members aged 15 years and over temporarily absent - All incomes stated - No negative incomes stated"},
+    {"code": "2", "category": "No members aged 15 years and over temporarily absent - All incomes stated - One or more negative incomes stated"},
+    {"code": "3", "category": "No members aged 15 years and over temporarily absent - One or more incomes not stated - No negative incomes stated"},
+    {"code": "4", "category": "No members aged 15 years and over temporarily absent - One or more incomes not stated - One or more negative incomes stated"},
+    {"code": "5", "category": "One or more members aged 15 years and over temporarily absent - Incomes stated for all members present - No negative incomes stated"},
+    {"code": "6", "category": "One or more members aged 15 years and over temporarily absent - Incomes stated for all members present - One or more negative incomes stated"},
+    {"code": "7", "category": "One or more members aged 15 years and over temporarily absent - One or more incomes or members present not stated - No negative incomes stated"},
+    {"code": "8", "category": "One or more members aged 15 years and over temporarily absent - One or more incomes or members present not stated - One or more negative incomes stated"},
+    {"code": "@", "category": "Not applicable"}
+]

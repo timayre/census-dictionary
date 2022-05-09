@@ -52,7 +52,7 @@
     "subheadings": true
   },
   "FIDF": {
-    "skip": true
+    "file": "snowflakes/FIDF_HIDD.json"
   },
   "FMCF": {
     "indented": true,
@@ -80,7 +80,7 @@
     "subheadings": true
   },
   "HIDD": {
-    "skip": true
+    "file": "snowflakes/FIDF_HIDD.json"
   },
   "HRSP": {
     "numeric": true
