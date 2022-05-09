@@ -9623,69 +9623,56 @@
       "release": "October 2022",
       "new_2021": false,
       "url": "https://www.abs.gov.au/census/guide-census-data/census-dictionary/2021/variables-topic/education-and-training/engagement-employment-education-and-training-eetp",
-      "category_table": {
-        "head": [
-          "Code",
-          "Category"
-        ],
-        "rows": [
-          [],
-          [
-            "11",
-            "Fully engaged - Engaged through full-time study and full-time employment"
-          ],
-          [
-            "12",
-            "Fully engaged - Primarily engaged through full-time study"
-          ],
-          [
-            "13",
-            "Fully engaged - Primarily engaged through full-time employment"
-          ],
-          [
-            "14",
-            "Fully engaged - Engaged through part-time study and part-time employment"
-          ],
-          [
-            "15",
-            "Fully engaged - Engaged other"
-          ],
-          [],
-          [
-            "21",
-            "Partially engaged - Engaged in part-time study only"
-          ],
-          [
-            "22",
-            "Partially engaged - Engaged in part-time work only"
-          ],
-          [],
-          [
-            "31",
-            "At least partially engaged"
-          ],
-          [],
-          [
-            "41",
-            "Not engaged"
-          ],
-          [],
-          [
-            "&&",
-            "Engagement status undetermined/not stated"
-          ],
-          [],
-          [
-            "@@",
-            "Not applicable"
-          ],
-          [],
-          [
-            "VV",
-            "Overseas visitor"
-          ]
-        ]
-      }
+      "categories": [
+        {
+          "code": "11",
+          "category": "Fully engaged - Engaged through full-time study and full-time employment"
+        },
+        {
+          "code": "12",
+          "category": "Fully engaged - Primarily engaged through full-time study"
+        },
+        {
+          "code": "13",
+          "category": "Fully engaged - Primarily engaged through full-time employment"
+        },
+        {
+          "code": "14",
+          "category": "Fully engaged - Engaged through part-time study and part-time employment"
+        },
+        {
+          "code": "15",
+          "category": "Fully engaged - Engaged other"
+        },
+        {
+          "code": "21",
+          "category": "Partially engaged - Engaged in part-time study only"
+        },
+        {
+          "code": "22",
+          "category": "Partially engaged - Engaged in part-time work only"
+        },
+        {
+          "code": "31",
+          "category": "At least partially engaged"
+        },
+        {
+          "code": "41",
+          "category": "Not engaged"
+        },
+        {
+          "code": "&&",
+          "category": "Engagement status undetermined/not stated"
+        },
+        {
+          "code": "@@",
+          "category": "Not applicable"
+        },
+        {
+          "code": "VV",
+          "category": "Overseas visitor"
+        }
+      ]
     },
     {
       "code": "EMFP",
@@ -28832,165 +28819,132 @@
       "release": "June 2022",
       "new_2021": false,
       "url": "https://www.abs.gov.au/census/guide-census-data/census-dictionary/2021/variables-topic/household-and-families/relationship-household-including-grandchildren-rlgp",
-      "category_table": {
-        "head": [
-          "Code",
-          "Category"
-        ],
-        "rows": [
-          [
-            "Husband, Wife or Partner"
-          ],
-          [
-            "10",
-            "Husband, wife or partner, opposite-sex couple"
-          ],
-          [
-            "15",
-            "Husband, wife or partner, same-sex couple"
-          ],
-          [
-            "Lone parent"
-          ],
-          [
-            "21",
-            "Lone parent"
-          ],
-          [
-            "Child under 15"
-          ],
-          [
-            "31",
-            "Natural or adopted child under 15"
-          ],
-          [
-            "32",
-            "Step child under 15"
-          ],
-          [
-            "33",
-            "Foster child under 15"
-          ],
-          [
-            "34",
-            "Grandchild under 15"
-          ],
-          [
-            "35",
-            "Otherwise related child under 15"
-          ],
-          [
-            "36",
-            "Unrelated child under 15"
-          ],
-          [
-            "Dependent student"
-          ],
-          [
-            "41",
-            "Natural or adopted dependent student"
-          ],
-          [
-            "42",
-            "Dependent student step child"
-          ],
-          [
-            "43",
-            "Dependent student foster child"
-          ],
-          [
-            "44",
-            "Dependent student grandchild"
-          ],
-          [
-            "Non-dependent child"
-          ],
-          [
-            "51",
-            "Non-dependent natural, or adopted child"
-          ],
-          [
-            "52",
-            "Non-dependent step child"
-          ],
-          [
-            "53",
-            "Non-dependent foster child"
-          ],
-          [
-            "54",
-            "Non-dependent grandchild"
-          ],
-          [
-            "Other related individual"
-          ],
-          [
-            "61",
-            "Brother/sister"
-          ],
-          [
-            "62",
-            "Father/mother"
-          ],
-          [
-            "64",
-            "Grandfather/grandmother"
-          ],
-          [
-            "65",
-            "Cousin"
-          ],
-          [
-            "66",
-            "Uncle/aunt"
-          ],
-          [
-            "67",
-            "Nephew/niece"
-          ],
-          [
-            "69",
-            "Other related individual (nec)"
-          ],
-          [
-            "Non-family member"
-          ],
-          [
-            "71",
-            "Unrelated individual living in family household"
-          ],
-          [
-            "72",
-            "Group household member"
-          ],
-          [
-            "73",
-            "Lone person"
-          ],
-          [
-            "Non-classifiable"
-          ],
-          [
-            "91",
-            "Visitor from within Australia"
-          ],
-          [
-            "99",
-            "Other non-classifiable relationship"
-          ],
-          [
-            "Not applicable"
-          ],
-          [
-            "@@",
-            "Not applicable"
-          ],
-          [
-            "VV",
-            "Overseas visitor"
-          ]
-        ]
-      }
+      "categories": [
+        {
+          "code": "10",
+          "category": "Husband, wife or partner, opposite-sex couple"
+        },
+        {
+          "code": "15",
+          "category": "Husband, wife or partner, same-sex couple"
+        },
+        {
+          "code": "21",
+          "category": "Lone parent"
+        },
+        {
+          "code": "31",
+          "category": "Natural or adopted child under 15"
+        },
+        {
+          "code": "32",
+          "category": "Step child under 15"
+        },
+        {
+          "code": "33",
+          "category": "Foster child under 15"
+        },
+        {
+          "code": "34",
+          "category": "Grandchild under 15"
+        },
+        {
+          "code": "35",
+          "category": "Otherwise related child under 15"
+        },
+        {
+          "code": "36",
+          "category": "Unrelated child under 15"
+        },
+        {
+          "code": "41",
+          "category": "Natural or adopted dependent student"
+        },
+        {
+          "code": "42",
+          "category": "Dependent student step child"
+        },
+        {
+          "code": "43",
+          "category": "Dependent student foster child"
+        },
+        {
+          "code": "44",
+          "category": "Dependent student grandchild"
+        },
+        {
+          "code": "51",
+          "category": "Non-dependent natural, or adopted child"
+        },
+        {
+          "code": "52",
+          "category": "Non-dependent step child"
+        },
+        {
+          "code": "53",
+          "category": "Non-dependent foster child"
+        },
+        {
+          "code": "54",
+          "category": "Non-dependent grandchild"
+        },
+        {
+          "code": "61",
+          "category": "Brother/sister"
+        },
+        {
+          "code": "62",
+          "category": "Father/mother"
+        },
+        {
+          "code": "64",
+          "category": "Grandfather/grandmother"
+        },
+        {
+          "code": "65",
+          "category": "Cousin"
+        },
+        {
+          "code": "66",
+          "category": "Uncle/aunt"
+        },
+        {
+          "code": "67",
+          "category": "Nephew/niece"
+        },
+        {
+          "code": "69",
+          "category": "Other related individual (nec)"
+        },
+        {
+          "code": "71",
+          "category": "Unrelated individual living in family household"
+        },
+        {
+          "code": "72",
+          "category": "Group household member"
+        },
+        {
+          "code": "73",
+          "category": "Lone person"
+        },
+        {
+          "code": "91",
+          "category": "Visitor from within Australia"
+        },
+        {
+          "code": "99",
+          "category": "Other non-classifiable relationship"
+        },
+        {
+          "code": "@@",
+          "category": "Not applicable"
+        },
+        {
+          "code": "VV",
+          "category": "Overseas visitor"
+        }
+      ]
     },
     {
       "code": "RLHP",
@@ -28999,159 +28953,144 @@
       "release": "June 2022",
       "new_2021": false,
       "url": "https://www.abs.gov.au/census/guide-census-data/census-dictionary/2021/variables-topic/household-and-families/relationship-household-rlhp",
-      "category_table": {
-        "head": [
-          "Code",
-          "Category"
-        ],
-        "rows": [
-          [],
-          [
-            "12",
-            "In a registered marriage, opposite-sex couple"
-          ],
-          [
-            "13",
-            "In a registered marriage, male same-sex couple"
-          ],
-          [
-            "14",
-            "In a registered marriage, female same-sex couple"
-          ],
-          [
-            "15",
-            "In de facto marriage, opposite-sex couple"
-          ],
-          [
-            "17",
-            "In de facto marriage, male same-sex couple"
-          ],
-          [
-            "18",
-            "In de facto marriage, female same-sex couple"
-          ],
-          [],
-          [
-            "21",
-            "Lone parent"
-          ],
-          [],
-          [
-            "31",
-            "Natural or adopted child under 15"
-          ],
-          [
-            "32",
-            "Step child under 15"
-          ],
-          [
-            "33",
-            "Foster child under 15"
-          ],
-          [
-            "34",
-            "Grandchild under 15"
-          ],
-          [
-            "35",
-            "Otherwise related child under 15"
-          ],
-          [
-            "36",
-            "Unrelated child under 15"
-          ],
-          [],
-          [
-            "41",
-            "Natural or adopted dependent student"
-          ],
-          [
-            "42",
-            "Student step child"
-          ],
-          [
-            "43",
-            "Student foster child"
-          ],
-          [],
-          [
-            "51",
-            "Non-dependent natural, or adopted child"
-          ],
-          [
-            "52",
-            "Non-dependent step child"
-          ],
-          [
-            "53",
-            "Non-dependent foster child"
-          ],
-          [],
-          [
-            "61",
-            "Brother/sister"
-          ],
-          [
-            "62",
-            "Father/mother"
-          ],
-          [
-            "63",
-            "Non-dependent grandchild"
-          ],
-          [
-            "64",
-            "Grandfather/grandmother"
-          ],
-          [
-            "65",
-            "Cousin"
-          ],
-          [
-            "66",
-            "Uncle/aunt"
-          ],
-          [
-            "67",
-            "Nephew/niece"
-          ],
-          [
-            "69",
-            "Other related individual (nec)"
-          ],
-          [],
-          [
-            "71",
-            "Unrelated individual living in family household"
-          ],
-          [
-            "72",
-            "Group household member"
-          ],
-          [
-            "73",
-            "Lone person"
-          ],
-          [],
-          [
-            "91",
-            "Visitor (from within Australia)"
-          ],
-          [
-            "99",
-            "Other non-classifiable relationship"
-          ],
-          [],
-          [
-            "@@",
-            "Not applicable"
-          ],
-          [
-            "VV",
-            "Overseas visitor"
-          ]
-        ]
-      }
+      "categories": [
+        {
+          "code": "12",
+          "category": "In a registered marriage, opposite-sex couple"
+        },
+        {
+          "code": "13",
+          "category": "In a registered marriage, male same-sex couple"
+        },
+        {
+          "code": "14",
+          "category": "In a registered marriage, female same-sex couple"
+        },
+        {
+          "code": "15",
+          "category": "In de facto marriage, opposite-sex couple"
+        },
+        {
+          "code": "17",
+          "category": "In de facto marriage, male same-sex couple"
+        },
+        {
+          "code": "18",
+          "category": "In de facto marriage, female same-sex couple"
+        },
+        {
+          "code": "21",
+          "category": "Lone parent"
+        },
+        {
+          "code": "31",
+          "category": "Natural or adopted child under 15"
+        },
+        {
+          "code": "32",
+          "category": "Step child under 15"
+        },
+        {
+          "code": "33",
+          "category": "Foster child under 15"
+        },
+        {
+          "code": "34",
+          "category": "Grandchild under 15"
+        },
+        {
+          "code": "35",
+          "category": "Otherwise related child under 15"
+        },
+        {
+          "code": "36",
+          "category": "Unrelated child under 15"
+        },
+        {
+          "code": "41",
+          "category": "Natural or adopted dependent student"
+        },
+        {
+          "code": "42",
+          "category": "Student step child"
+        },
+        {
+          "code": "43",
+          "category": "Student foster child"
+        },
+        {
+          "code": "51",
+          "category": "Non-dependent natural, or adopted child"
+        },
+        {
+          "code": "52",
+          "category": "Non-dependent step child"
+        },
+        {
+          "code": "53",
+          "category": "Non-dependent foster child"
+        },
+        {
+          "code": "61",
+          "category": "Brother/sister"
+        },
+        {
+          "code": "62",
+          "category": "Father/mother"
+        },
+        {
+          "code": "63",
+          "category": "Non-dependent grandchild"
+        },
+        {
+          "code": "64",
+          "category": "Grandfather/grandmother"
+        },
+        {
+          "code": "65",
+          "category": "Cousin"
+        },
+        {
+          "code": "66",
+          "category": "Uncle/aunt"
+        },
+        {
+          "code": "67",
+          "category": "Nephew/niece"
+        },
+        {
+          "code": "69",
+          "category": "Other related individual (nec)"
+        },
+        {
+          "code": "71",
+          "category": "Unrelated individual living in family household"
+        },
+        {
+          "code": "72",
+          "category": "Group household member"
+        },
+        {
+          "code": "73",
+          "category": "Lone person"
+        },
+        {
+          "code": "91",
+          "category": "Visitor (from within Australia)"
+        },
+        {
+          "code": "99",
+          "category": "Other non-classifiable relationship"
+        },
+        {
+          "code": "@@",
+          "category": "Not applicable"
+        },
+        {
+          "code": "VV",
+          "category": "Overseas visitor"
+        }
+      ]
     },
     {
       "code": "RLNP",
@@ -29336,54 +29275,36 @@
       "release": "June 2022",
       "new_2021": false,
       "url": "https://www.abs.gov.au/census/guide-census-data/census-dictionary/2021/variables-topic/household-and-families/familyhousehold-reference-person-indicator-rpip",
-      "category_table": {
-        "head": [
-          "Code",
-          "Category"
-        ],
-        "rows": [
-          [
-            "Reference person in a family household"
-          ],
-          [
-            "1",
-            "Reference person in primary family"
-          ],
-          [
-            "2",
-            "Reference person in second family"
-          ],
-          [
-            "3",
-            "Reference person in third family"
-          ],
-          [
-            "Reference person in non-family household"
-          ],
-          [
-            "4",
-            "Reference person in non-family household"
-          ],
-          [
-            "Other"
-          ],
-          [
-            "5",
-            "Other household member"
-          ],
-          [
-            "Supplementary codes"
-          ],
-          [
-            "@",
-            "Not applicable"
-          ],
-          [
-            "V",
-            "Overseas visitor"
-          ]
-        ]
-      }
+      "categories": [
+        {
+          "code": "1",
+          "category": "Reference person in primary family"
+        },
+        {
+          "code": "2",
+          "category": "Reference person in second family"
+        },
+        {
+          "code": "3",
+          "category": "Reference person in third family"
+        },
+        {
+          "code": "4",
+          "category": "Reference person in non-family household"
+        },
+        {
+          "code": "5",
+          "category": "Other household member"
+        },
+        {
+          "code": "@",
+          "category": "Not applicable"
+        },
+        {
+          "code": "V",
+          "category": "Overseas visitor"
+        }
+      ]
     },
     {
       "code": "SAFD",

@@ -49,7 +49,7 @@
     "multilevel": true
   },
   "EETP": {
-    "skip": true
+    "subheadings": true
   },
   "FIDF": {
     "skip": true
@@ -139,16 +139,16 @@
     "subheadings": true
   },
   "RLGP": {
-    "skip": true
+    "subheadings": true
   },
   "RLHP": {
-    "skip": true
+    "subheadings": true
   },
   "RNTD": {
     "numeric": true
   },
   "RPIP": {
-    "skip": true
+    "subheadings": true
   },
   "STRD": {
     "skip": true
