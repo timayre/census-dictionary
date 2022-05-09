@@ -29449,85 +29449,64 @@
       "release": "June 2022",
       "new_2021": false,
       "url": "https://www.abs.gov.au/census/guide-census-data/census-dictionary/2021/variables-topic/housing/dwelling-structure-strd",
-      "category_table": {
-        "head": [
-          "Code",
-          "Category"
-        ],
-        "rows": [
-          [
-            "Separate house"
-          ],
-          [
-            "11",
-            "Separate house"
-          ],
-          [
-            "Semi-detached, row or terrace house, townhouse etc. with one, two or more storeys"
-          ],
-          [
-            "21",
-            "One storey"
-          ],
-          [
-            "22",
-            "Two or more storeys"
-          ],
-          [
-            "Flat or apartment"
-          ],
-          [
-            "31",
-            "In a one or two storey block"
-          ],
-          [
-            "32",
-            "In a three storey block"
-          ],
-          [
-            "33",
-            "In a four to eight storey block"
-          ],
-          [
-            "34",
-            "In a nine or more storey block"
-          ],
-          [
-            "35",
-            "Attached to a house"
-          ],
-          [
-            "Other dwelling"
-          ],
-          [
-            "91",
-            "Caravan"
-          ],
-          [
-            "92",
-            "Cabin, houseboat"
-          ],
-          [
-            "93",
-            "Improvised home, tent, sleepers out"
-          ],
-          [
-            "94",
-            "House or flat attached to a shop, office, etc."
-          ],
-          [
-            "Supplementary Codes"
-          ],
-          [
-            "&&",
-            "Not stated"
-          ],
-          [
-            "@@",
-            "Not applicable"
-          ]
-        ]
-      }
+      "categories": [
+        {
+          "code": "11",
+          "category": "Separate house"
+        },
+        {
+          "code": "21",
+          "category": "Semi-detached, row or terrace house, townhouse etc. with one storey"
+        },
+        {
+          "code": "22",
+          "category": "Semi-detached, row or terrace house, townhouse etc. with two or more storeys"
+        },
+        {
+          "code": "31",
+          "category": "Flat or apartment in a one or two storey block"
+        },
+        {
+          "code": "32",
+          "category": "Flat or apartment in a three storey block"
+        },
+        {
+          "code": "33",
+          "category": "Flat or apartment in a four to eight storey block"
+        },
+        {
+          "code": "34",
+          "category": "Flat or apartment in a nine or more storey block"
+        },
+        {
+          "code": "35",
+          "category": "Flat or apartment attached to a house"
+        },
+        {
+          "code": "91",
+          "category": "Caravan"
+        },
+        {
+          "code": "92",
+          "category": "Cabin, houseboat"
+        },
+        {
+          "code": "93",
+          "category": "Improvised home, tent, sleepers out"
+        },
+        {
+          "code": "94",
+          "category": "House or flat attached to a shop, office, etc."
+        },
+        {
+          "code": "&&",
+          "category": "Not stated"
+        },
+        {
+          "code": "@@",
+          "category": "Not applicable"
+        }
+      ]
     },
     {
       "code": "STUP",

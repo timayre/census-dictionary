@@ -1,0 +1,16 @@
+[
+    {"code": "11", "category": "Separate house"},
+    {"code": "21", "category": "Semi-detached, row or terrace house, townhouse etc. with one storey"},
+    {"code": "22", "category": "Semi-detached, row or terrace house, townhouse etc. with two or more storeys"},
+    {"code": "31", "category": "Flat or apartment in a one or two storey block"},
+    {"code": "32", "category": "Flat or apartment in a three storey block"},
+    {"code": "33", "category": "Flat or apartment in a four to eight storey block"},
+    {"code": "34", "category": "Flat or apartment in a nine or more storey block"},
+    {"code": "35", "category": "Flat or apartment attached to a house"},
+    {"code": "91", "category": "Caravan"},
+    {"code": "92", "category": "Cabin, houseboat"},
+    {"code": "93", "category": "Improvised home, tent, sleepers out"},
+    {"code": "94", "category": "House or flat attached to a shop, office, etc."},
+    {"code": "&&", "category": "Not stated"},
+    {"code": "@@", "category": "Not applicable"}
+]

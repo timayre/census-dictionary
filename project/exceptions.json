@@ -151,7 +151,7 @@
     "subheadings": true
   },
   "STRD": {
-    "skip": true
+    "file": "snowflakes/STRD.json"
   },
   "VEHD": {
     "numeric": true
