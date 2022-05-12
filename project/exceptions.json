@@ -1,4 +1,13 @@
 {
+  "AGEP": {
+    "numeric": true,
+    "code": "000-115",
+    "from": 0,
+    "to": 115,
+    "digits": 3,
+    "singular": "year of age",
+    "plural": "years of age"
+  },
   "ANC1P": {
     "indented": true,
     "multilevel": true,
@@ -15,7 +24,13 @@
     "multitable": true
   },
   "BEDD": {
-    "numeric": true
+    "numeric": true,
+    "code": "01-29",
+    "from": 1,
+    "to": 29,
+    "digits": 2,
+    "singular": "bedroom",
+    "plural": "bedrooms"
   },
   "BPFP": {
     "indented": true,
@@ -83,7 +98,13 @@
     "file": "snowflakes/FIDF_HIDD.json"
   },
   "HRSP": {
-    "numeric": true
+    "numeric": true,
+    "code": "00-99",
+    "from": 0,
+    "to": 99,
+    "digits": 2,
+    "singular": "hour",
+    "plural": "hours"
   },
   "INDP": {
     "indented": true,
@@ -97,7 +118,8 @@
     "multitable": true
   },
   "MRED": {
-    "numeric": true
+    "numeric": true,
+    "skip": true
   },
   "OCC06P": {
     "indented": true,
@@ -145,7 +167,8 @@
     "subheadings": true
   },
   "RNTD": {
-    "numeric": true
+    "numeric": true,
+    "skip": true
   },
   "RPIP": {
     "subheadings": true
@@ -154,9 +177,21 @@
     "file": "snowflakes/STRD.json"
   },
   "VEHD": {
-    "numeric": true
+    "numeric": true,
+    "code": "01-29",
+    "from": 1,
+    "to": 29,
+    "digits": 2,
+    "singular": "motor vehicle",
+    "plural": "motor vehicles"
   },
   "YARP": {
-    "numeric": true
+    "numeric": true,
+    "code": "1905 - 2021",
+    "from": 1905,
+    "to": 2021,
+    "digits": 4,
+    "singular": "",
+    "plural": ""
   }
 }

@@ -17,11 +17,10 @@ def main(save='../census-dict-2021.json', exc='exceptions.json'):
         multi = exceptions.get(varcode, {}).get('multitable')
         file = exceptions.get(varcode, {}).get('file')
         skip = exceptions.get(varcode, {}).get('skip')
-        numeric = exceptions.get(varcode, {}).get('numeric')
         var_info['category_table'] = load_var_categories(var_info, multi=multi)
         if varcode in exceptions:
             var_info['category_table']['rows'] = format_rows(var_info, exceptions[varcode])
-        if varcode not in exceptions or not(skip or numeric or file):
+        if varcode not in exceptions or not(skip or file):
             try:
                 var_info['categories'] = format_categories_simple(var_info['category_table'])
                 var_info.pop('category_table')
@@ -134,6 +133,8 @@ def format_rows(var_info, var_except):
         rows = format_rows_subheadings(rows)
     if var_except.get('multilevel'):
         rows = format_rows_multilev(rows)
+    if var_except.get('numeric'):
+        rows = expand_numeric(rows, var_except)
     return rows
 
 
@@ -152,6 +153,22 @@ def format_rows_subheadings(rows):
 def format_rows_multilev(rows):
     maxchars = max(len(r[0]) for r in rows if r)
     return [r for r in rows if r and len(r[0]) == maxchars] 
+
+
+def expand_numeric(rows, conf):
+    out_rows = []
+    for row in rows:
+        if row[0] == conf.get('code'):
+            digits = conf.get('digits')
+            singular = conf.get('singular')
+            plural = conf.get('plural')
+            for i in range(conf.get('from'), conf.get('to')+1):
+                code = f'{i:0>{digits}}'
+                desc = f'{i} {singular if i==1 else plural}'.strip()
+                out_rows.append([code, desc])
+        else:
+            out_rows.append(row)
+    return out_rows
 
 
 if __name__ == '__main__':

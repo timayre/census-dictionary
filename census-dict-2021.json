@@ -249,8 +249,468 @@
       "url": "https://www.abs.gov.au/census/guide-census-data/census-dictionary/2021/variables-topic/population/age-agep",
       "categories": [
         {
-          "code": "000-115",
-          "category": "0 to 115 years of age singly"
+          "code": "000",
+          "category": "0 years of age"
+        },
+        {
+          "code": "001",
+          "category": "1 year of age"
+        },
+        {
+          "code": "002",
+          "category": "2 years of age"
+        },
+        {
+          "code": "003",
+          "category": "3 years of age"
+        },
+        {
+          "code": "004",
+          "category": "4 years of age"
+        },
+        {
+          "code": "005",
+          "category": "5 years of age"
+        },
+        {
+          "code": "006",
+          "category": "6 years of age"
+        },
+        {
+          "code": "007",
+          "category": "7 years of age"
+        },
+        {
+          "code": "008",
+          "category": "8 years of age"
+        },
+        {
+          "code": "009",
+          "category": "9 years of age"
+        },
+        {
+          "code": "010",
+          "category": "10 years of age"
+        },
+        {
+          "code": "011",
+          "category": "11 years of age"
+        },
+        {
+          "code": "012",
+          "category": "12 years of age"
+        },
+        {
+          "code": "013",
+          "category": "13 years of age"
+        },
+        {
+          "code": "014",
+          "category": "14 years of age"
+        },
+        {
+          "code": "015",
+          "category": "15 years of age"
+        },
+        {
+          "code": "016",
+          "category": "16 years of age"
+        },
+        {
+          "code": "017",
+          "category": "17 years of age"
+        },
+        {
+          "code": "018",
+          "category": "18 years of age"
+        },
+        {
+          "code": "019",
+          "category": "19 years of age"
+        },
+        {
+          "code": "020",
+          "category": "20 years of age"
+        },
+        {
+          "code": "021",
+          "category": "21 years of age"
+        },
+        {
+          "code": "022",
+          "category": "22 years of age"
+        },
+        {
+          "code": "023",
+          "category": "23 years of age"
+        },
+        {
+          "code": "024",
+          "category": "24 years of age"
+        },
+        {
+          "code": "025",
+          "category": "25 years of age"
+        },
+        {
+          "code": "026",
+          "category": "26 years of age"
+        },
+        {
+          "code": "027",
+          "category": "27 years of age"
+        },
+        {
+          "code": "028",
+          "category": "28 years of age"
+        },
+        {
+          "code": "029",
+          "category": "29 years of age"
+        },
+        {
+          "code": "030",
+          "category": "30 years of age"
+        },
+        {
+          "code": "031",
+          "category": "31 years of age"
+        },
+        {
+          "code": "032",
+          "category": "32 years of age"
+        },
+        {
+          "code": "033",
+          "category": "33 years of age"
+        },
+        {
+          "code": "034",
+          "category": "34 years of age"
+        },
+        {
+          "code": "035",
+          "category": "35 years of age"
+        },
+        {
+          "code": "036",
+          "category": "36 years of age"
+        },
+        {
+          "code": "037",
+          "category": "37 years of age"
+        },
+        {
+          "code": "038",
+          "category": "38 years of age"
+        },
+        {
+          "code": "039",
+          "category": "39 years of age"
+        },
+        {
+          "code": "040",
+          "category": "40 years of age"
+        },
+        {
+          "code": "041",
+          "category": "41 years of age"
+        },
+        {
+          "code": "042",
+          "category": "42 years of age"
+        },
+        {
+          "code": "043",
+          "category": "43 years of age"
+        },
+        {
+          "code": "044",
+          "category": "44 years of age"
+        },
+        {
+          "code": "045",
+          "category": "45 years of age"
+        },
+        {
+          "code": "046",
+          "category": "46 years of age"
+        },
+        {
+          "code": "047",
+          "category": "47 years of age"
+        },
+        {
+          "code": "048",
+          "category": "48 years of age"
+        },
+        {
+          "code": "049",
+          "category": "49 years of age"
+        },
+        {
+          "code": "050",
+          "category": "50 years of age"
+        },
+        {
+          "code": "051",
+          "category": "51 years of age"
+        },
+        {
+          "code": "052",
+          "category": "52 years of age"
+        },
+        {
+          "code": "053",
+          "category": "53 years of age"
+        },
+        {
+          "code": "054",
+          "category": "54 years of age"
+        },
+        {
+          "code": "055",
+          "category": "55 years of age"
+        },
+        {
+          "code": "056",
+          "category": "56 years of age"
+        },
+        {
+          "code": "057",
+          "category": "57 years of age"
+        },
+        {
+          "code": "058",
+          "category": "58 years of age"
+        },
+        {
+          "code": "059",
+          "category": "59 years of age"
+        },
+        {
+          "code": "060",
+          "category": "60 years of age"
+        },
+        {
+          "code": "061",
+          "category": "61 years of age"
+        },
+        {
+          "code": "062",
+          "category": "62 years of age"
+        },
+        {
+          "code": "063",
+          "category": "63 years of age"
+        },
+        {
+          "code": "064",
+          "category": "64 years of age"
+        },
+        {
+          "code": "065",
+          "category": "65 years of age"
+        },
+        {
+          "code": "066",
+          "category": "66 years of age"
+        },
+        {
+          "code": "067",
+          "category": "67 years of age"
+        },
+        {
+          "code": "068",
+          "category": "68 years of age"
+        },
+        {
+          "code": "069",
+          "category": "69 years of age"
+        },
+        {
+          "code": "070",
+          "category": "70 years of age"
+        },
+        {
+          "code": "071",
+          "category": "71 years of age"
+        },
+        {
+          "code": "072",
+          "category": "72 years of age"
+        },
+        {
+          "code": "073",
+          "category": "73 years of age"
+        },
+        {
+          "code": "074",
+          "category": "74 years of age"
+        },
+        {
+          "code": "075",
+          "category": "75 years of age"
+        },
+        {
+          "code": "076",
+          "category": "76 years of age"
+        },
+        {
+          "code": "077",
+          "category": "77 years of age"
+        },
+        {
+          "code": "078",
+          "category": "78 years of age"
+        },
+        {
+          "code": "079",
+          "category": "79 years of age"
+        },
+        {
+          "code": "080",
+          "category": "80 years of age"
+        },
+        {
+          "code": "081",
+          "category": "81 years of age"
+        },
+        {
+          "code": "082",
+          "category": "82 years of age"
+        },
+        {
+          "code": "083",
+          "category": "83 years of age"
+        },
+        {
+          "code": "084",
+          "category": "84 years of age"
+        },
+        {
+          "code": "085",
+          "category": "85 years of age"
+        },
+        {
+          "code": "086",
+          "category": "86 years of age"
+        },
+        {
+          "code": "087",
+          "category": "87 years of age"
+        },
+        {
+          "code": "088",
+          "category": "88 years of age"
+        },
+        {
+          "code": "089",
+          "category": "89 years of age"
+        },
+        {
+          "code": "090",
+          "category": "90 years of age"
+        },
+        {
+          "code": "091",
+          "category": "91 years of age"
+        },
+        {
+          "code": "092",
+          "category": "92 years of age"
+        },
+        {
+          "code": "093",
+          "category": "93 years of age"
+        },
+        {
+          "code": "094",
+          "category": "94 years of age"
+        },
+        {
+          "code": "095",
+          "category": "95 years of age"
+        },
+        {
+          "code": "096",
+          "category": "96 years of age"
+        },
+        {
+          "code": "097",
+          "category": "97 years of age"
+        },
+        {
+          "code": "098",
+          "category": "98 years of age"
+        },
+        {
+          "code": "099",
+          "category": "99 years of age"
+        },
+        {
+          "code": "100",
+          "category": "100 years of age"
+        },
+        {
+          "code": "101",
+          "category": "101 years of age"
+        },
+        {
+          "code": "102",
+          "category": "102 years of age"
+        },
+        {
+          "code": "103",
+          "category": "103 years of age"
+        },
+        {
+          "code": "104",
+          "category": "104 years of age"
+        },
+        {
+          "code": "105",
+          "category": "105 years of age"
+        },
+        {
+          "code": "106",
+          "category": "106 years of age"
+        },
+        {
+          "code": "107",
+          "category": "107 years of age"
+        },
+        {
+          "code": "108",
+          "category": "108 years of age"
+        },
+        {
+          "code": "109",
+          "category": "109 years of age"
+        },
+        {
+          "code": "110",
+          "category": "110 years of age"
+        },
+        {
+          "code": "111",
+          "category": "111 years of age"
+        },
+        {
+          "code": "112",
+          "category": "112 years of age"
+        },
+        {
+          "code": "113",
+          "category": "113 years of age"
+        },
+        {
+          "code": "114",
+          "category": "114 years of age"
+        },
+        {
+          "code": "115",
+          "category": "115 years of age"
         }
       ]
     },
@@ -4211,34 +4671,140 @@
       "release": "June 2022",
       "new_2021": false,
       "url": "https://www.abs.gov.au/census/guide-census-data/census-dictionary/2021/variables-topic/housing/number-bedrooms-private-dwelling-bedd",
-      "category_table": {
-        "head": [
-          "Code",
-          "Category"
-        ],
-        "rows": [
-          [
-            "00",
-            "None (includes studio apartments or bedsitters)"
-          ],
-          [
-            "01-29",
-            "1 to 29 bedrooms singly"
-          ],
-          [
-            "30",
-            "30 or more bedrooms"
-          ],
-          [
-            "&&",
-            "Not stated"
-          ],
-          [
-            "@@",
-            "Not applicable"
-          ]
-        ]
-      }
+      "categories": [
+        {
+          "code": "00",
+          "category": "None (includes studio apartments or bedsitters)"
+        },
+        {
+          "code": "01",
+          "category": "1 bedroom"
+        },
+        {
+          "code": "02",
+          "category": "2 bedrooms"
+        },
+        {
+          "code": "03",
+          "category": "3 bedrooms"
+        },
+        {
+          "code": "04",
+          "category": "4 bedrooms"
+        },
+        {
+          "code": "05",
+          "category": "5 bedrooms"
+        },
+        {
+          "code": "06",
+          "category": "6 bedrooms"
+        },
+        {
+          "code": "07",
+          "category": "7 bedrooms"
+        },
+        {
+          "code": "08",
+          "category": "8 bedrooms"
+        },
+        {
+          "code": "09",
+          "category": "9 bedrooms"
+        },
+        {
+          "code": "10",
+          "category": "10 bedrooms"
+        },
+        {
+          "code": "11",
+          "category": "11 bedrooms"
+        },
+        {
+          "code": "12",
+          "category": "12 bedrooms"
+        },
+        {
+          "code": "13",
+          "category": "13 bedrooms"
+        },
+        {
+          "code": "14",
+          "category": "14 bedrooms"
+        },
+        {
+          "code": "15",
+          "category": "15 bedrooms"
+        },
+        {
+          "code": "16",
+          "category": "16 bedrooms"
+        },
+        {
+          "code": "17",
+          "category": "17 bedrooms"
+        },
+        {
+          "code": "18",
+          "category": "18 bedrooms"
+        },
+        {
+          "code": "19",
+          "category": "19 bedrooms"
+        },
+        {
+          "code": "20",
+          "category": "20 bedrooms"
+        },
+        {
+          "code": "21",
+          "category": "21 bedrooms"
+        },
+        {
+          "code": "22",
+          "category": "22 bedrooms"
+        },
+        {
+          "code": "23",
+          "category": "23 bedrooms"
+        },
+        {
+          "code": "24",
+          "category": "24 bedrooms"
+        },
+        {
+          "code": "25",
+          "category": "25 bedrooms"
+        },
+        {
+          "code": "26",
+          "category": "26 bedrooms"
+        },
+        {
+          "code": "27",
+          "category": "27 bedrooms"
+        },
+        {
+          "code": "28",
+          "category": "28 bedrooms"
+        },
+        {
+          "code": "29",
+          "category": "29 bedrooms"
+        },
+        {
+          "code": "30",
+          "category": "30 or more bedrooms"
+        },
+        {
+          "code": "&&",
+          "category": "Not stated"
+        },
+        {
+          "code": "@@",
+          "category": "Not applicable"
+        }
+      ]
     },
     {
       "code": "BEDRD",
@@ -11297,30 +11863,420 @@
       "release": "October 2022",
       "new_2021": false,
       "url": "https://www.abs.gov.au/census/guide-census-data/census-dictionary/2021/variables-topic/income-and-work/hours-worked-hrsp",
-      "category_table": {
-        "head": [
-          "Code",
-          "Category"
-        ],
-        "rows": [
-          [
-            "00-99",
-            "0 to 99 hours singly"
-          ],
-          [
-            "&&",
-            "Not stated"
-          ],
-          [
-            "@@",
-            "Not applicable"
-          ],
-          [
-            "VV",
-            "Overseas visitor"
-          ]
-        ]
-      }
+      "categories": [
+        {
+          "code": "00",
+          "category": "0 hours"
+        },
+        {
+          "code": "01",
+          "category": "1 hour"
+        },
+        {
+          "code": "02",
+          "category": "2 hours"
+        },
+        {
+          "code": "03",
+          "category": "3 hours"
+        },
+        {
+          "code": "04",
+          "category": "4 hours"
+        },
+        {
+          "code": "05",
+          "category": "5 hours"
+        },
+        {
+          "code": "06",
+          "category": "6 hours"
+        },
+        {
+          "code": "07",
+          "category": "7 hours"
+        },
+        {
+          "code": "08",
+          "category": "8 hours"
+        },
+        {
+          "code": "09",
+          "category": "9 hours"
+        },
+        {
+          "code": "10",
+          "category": "10 hours"
+        },
+        {
+          "code": "11",
+          "category": "11 hours"
+        },
+        {
+          "code": "12",
+          "category": "12 hours"
+        },
+        {
+          "code": "13",
+          "category": "13 hours"
+        },
+        {
+          "code": "14",
+          "category": "14 hours"
+        },
+        {
+          "code": "15",
+          "category": "15 hours"
+        },
+        {
+          "code": "16",
+          "category": "16 hours"
+        },
+        {
+          "code": "17",
+          "category": "17 hours"
+        },
+        {
+          "code": "18",
+          "category": "18 hours"
+        },
+        {
+          "code": "19",
+          "category": "19 hours"
+        },
+        {
+          "code": "20",
+          "category": "20 hours"
+        },
+        {
+          "code": "21",
+          "category": "21 hours"
+        },
+        {
+          "code": "22",
+          "category": "22 hours"
+        },
+        {
+          "code": "23",
+          "category": "23 hours"
+        },
+        {
+          "code": "24",
+          "category": "24 hours"
+        },
+        {
+          "code": "25",
+          "category": "25 hours"
+        },
+        {
+          "code": "26",
+          "category": "26 hours"
+        },
+        {
+          "code": "27",
+          "category": "27 hours"
+        },
+        {
+          "code": "28",
+          "category": "28 hours"
+        },
+        {
+          "code": "29",
+          "category": "29 hours"
+        },
+        {
+          "code": "30",
+          "category": "30 hours"
+        },
+        {
+          "code": "31",
+          "category": "31 hours"
+        },
+        {
+          "code": "32",
+          "category": "32 hours"
+        },
+        {
+          "code": "33",
+          "category": "33 hours"
+        },
+        {
+          "code": "34",
+          "category": "34 hours"
+        },
+        {
+          "code": "35",
+          "category": "35 hours"
+        },
+        {
+          "code": "36",
+          "category": "36 hours"
+        },
+        {
+          "code": "37",
+          "category": "37 hours"
+        },
+        {
+          "code": "38",
+          "category": "38 hours"
+        },
+        {
+          "code": "39",
+          "category": "39 hours"
+        },
+        {
+          "code": "40",
+          "category": "40 hours"
+        },
+        {
+          "code": "41",
+          "category": "41 hours"
+        },
+        {
+          "code": "42",
+          "category": "42 hours"
+        },
+        {
+          "code": "43",
+          "category": "43 hours"
+        },
+        {
+          "code": "44",
+          "category": "44 hours"
+        },
+        {
+          "code": "45",
+          "category": "45 hours"
+        },
+        {
+          "code": "46",
+          "category": "46 hours"
+        },
+        {
+          "code": "47",
+          "category": "47 hours"
+        },
+        {
+          "code": "48",
+          "category": "48 hours"
+        },
+        {
+          "code": "49",
+          "category": "49 hours"
+        },
+        {
+          "code": "50",
+          "category": "50 hours"
+        },
+        {
+          "code": "51",
+          "category": "51 hours"
+        },
+        {
+          "code": "52",
+          "category": "52 hours"
+        },
+        {
+          "code": "53",
+          "category": "53 hours"
+        },
+        {
+          "code": "54",
+          "category": "54 hours"
+        },
+        {
+          "code": "55",
+          "category": "55 hours"
+        },
+        {
+          "code": "56",
+          "category": "56 hours"
+        },
+        {
+          "code": "57",
+          "category": "57 hours"
+        },
+        {
+          "code": "58",
+          "category": "58 hours"
+        },
+        {
+          "code": "59",
+          "category": "59 hours"
+        },
+        {
+          "code": "60",
+          "category": "60 hours"
+        },
+        {
+          "code": "61",
+          "category": "61 hours"
+        },
+        {
+          "code": "62",
+          "category": "62 hours"
+        },
+        {
+          "code": "63",
+          "category": "63 hours"
+        },
+        {
+          "code": "64",
+          "category": "64 hours"
+        },
+        {
+          "code": "65",
+          "category": "65 hours"
+        },
+        {
+          "code": "66",
+          "category": "66 hours"
+        },
+        {
+          "code": "67",
+          "category": "67 hours"
+        },
+        {
+          "code": "68",
+          "category": "68 hours"
+        },
+        {
+          "code": "69",
+          "category": "69 hours"
+        },
+        {
+          "code": "70",
+          "category": "70 hours"
+        },
+        {
+          "code": "71",
+          "category": "71 hours"
+        },
+        {
+          "code": "72",
+          "category": "72 hours"
+        },
+        {
+          "code": "73",
+          "category": "73 hours"
+        },
+        {
+          "code": "74",
+          "category": "74 hours"
+        },
+        {
+          "code": "75",
+          "category": "75 hours"
+        },
+        {
+          "code": "76",
+          "category": "76 hours"
+        },
+        {
+          "code": "77",
+          "category": "77 hours"
+        },
+        {
+          "code": "78",
+          "category": "78 hours"
+        },
+        {
+          "code": "79",
+          "category": "79 hours"
+        },
+        {
+          "code": "80",
+          "category": "80 hours"
+        },
+        {
+          "code": "81",
+          "category": "81 hours"
+        },
+        {
+          "code": "82",
+          "category": "82 hours"
+        },
+        {
+          "code": "83",
+          "category": "83 hours"
+        },
+        {
+          "code": "84",
+          "category": "84 hours"
+        },
+        {
+          "code": "85",
+          "category": "85 hours"
+        },
+        {
+          "code": "86",
+          "category": "86 hours"
+        },
+        {
+          "code": "87",
+          "category": "87 hours"
+        },
+        {
+          "code": "88",
+          "category": "88 hours"
+        },
+        {
+          "code": "89",
+          "category": "89 hours"
+        },
+        {
+          "code": "90",
+          "category": "90 hours"
+        },
+        {
+          "code": "91",
+          "category": "91 hours"
+        },
+        {
+          "code": "92",
+          "category": "92 hours"
+        },
+        {
+          "code": "93",
+          "category": "93 hours"
+        },
+        {
+          "code": "94",
+          "category": "94 hours"
+        },
+        {
+          "code": "95",
+          "category": "95 hours"
+        },
+        {
+          "code": "96",
+          "category": "96 hours"
+        },
+        {
+          "code": "97",
+          "category": "97 hours"
+        },
+        {
+          "code": "98",
+          "category": "98 hours"
+        },
+        {
+          "code": "99",
+          "category": "99 hours"
+        },
+        {
+          "code": "&&",
+          "category": "Not stated"
+        },
+        {
+          "code": "@@",
+          "category": "Not applicable"
+        },
+        {
+          "code": "VV",
+          "category": "Overseas visitor"
+        }
+      ]
     },
     {
       "code": "HRWRP",
@@ -30187,34 +31143,140 @@
       "release": "June 2022",
       "new_2021": false,
       "url": "https://www.abs.gov.au/census/guide-census-data/census-dictionary/2021/variables-topic/transport/number-motor-vehicles-vehd",
-      "category_table": {
-        "head": [
-          "Code",
-          "Category"
-        ],
-        "rows": [
-          [
-            "00",
-            "No motor vehicles"
-          ],
-          [
-            "01-29",
-            "1-29 motor vehicles singly"
-          ],
-          [
-            "30",
-            "30 or more motor vehicles"
-          ],
-          [
-            "&&",
-            "Not stated"
-          ],
-          [
-            "@@",
-            "Not applicable"
-          ]
-        ]
-      }
+      "categories": [
+        {
+          "code": "00",
+          "category": "No motor vehicles"
+        },
+        {
+          "code": "01",
+          "category": "1 motor vehicle"
+        },
+        {
+          "code": "02",
+          "category": "2 motor vehicles"
+        },
+        {
+          "code": "03",
+          "category": "3 motor vehicles"
+        },
+        {
+          "code": "04",
+          "category": "4 motor vehicles"
+        },
+        {
+          "code": "05",
+          "category": "5 motor vehicles"
+        },
+        {
+          "code": "06",
+          "category": "6 motor vehicles"
+        },
+        {
+          "code": "07",
+          "category": "7 motor vehicles"
+        },
+        {
+          "code": "08",
+          "category": "8 motor vehicles"
+        },
+        {
+          "code": "09",
+          "category": "9 motor vehicles"
+        },
+        {
+          "code": "10",
+          "category": "10 motor vehicles"
+        },
+        {
+          "code": "11",
+          "category": "11 motor vehicles"
+        },
+        {
+          "code": "12",
+          "category": "12 motor vehicles"
+        },
+        {
+          "code": "13",
+          "category": "13 motor vehicles"
+        },
+        {
+          "code": "14",
+          "category": "14 motor vehicles"
+        },
+        {
+          "code": "15",
+          "category": "15 motor vehicles"
+        },
+        {
+          "code": "16",
+          "category": "16 motor vehicles"
+        },
+        {
+          "code": "17",
+          "category": "17 motor vehicles"
+        },
+        {
+          "code": "18",
+          "category": "18 motor vehicles"
+        },
+        {
+          "code": "19",
+          "category": "19 motor vehicles"
+        },
+        {
+          "code": "20",
+          "category": "20 motor vehicles"
+        },
+        {
+          "code": "21",
+          "category": "21 motor vehicles"
+        },
+        {
+          "code": "22",
+          "category": "22 motor vehicles"
+        },
+        {
+          "code": "23",
+          "category": "23 motor vehicles"
+        },
+        {
+          "code": "24",
+          "category": "24 motor vehicles"
+        },
+        {
+          "code": "25",
+          "category": "25 motor vehicles"
+        },
+        {
+          "code": "26",
+          "category": "26 motor vehicles"
+        },
+        {
+          "code": "27",
+          "category": "27 motor vehicles"
+        },
+        {
+          "code": "28",
+          "category": "28 motor vehicles"
+        },
+        {
+          "code": "29",
+          "category": "29 motor vehicles"
+        },
+        {
+          "code": "30",
+          "category": "30 or more motor vehicles"
+        },
+        {
+          "code": "&&",
+          "category": "Not stated"
+        },
+        {
+          "code": "@@",
+          "category": "Not applicable"
+        }
+      ]
     },
     {
       "code": "VEHRD",
@@ -30329,30 +31391,488 @@
       "release": "June 2022",
       "new_2021": false,
       "url": "https://www.abs.gov.au/census/guide-census-data/census-dictionary/2021/variables-topic/cultural-diversity/year-arrival-australia-yarp",
-      "category_table": {
-        "head": [
-          "Code",
-          "Category"
-        ],
-        "rows": [
-          [
-            "1905 - 2021",
-            "1905 to 2021 singly"
-          ],
-          [
-            "&&&&",
-            "Not stated"
-          ],
-          [
-            "@@@@",
-            "Not applicable"
-          ],
-          [
-            "VVVV",
-            "Overseas visitor"
-          ]
-        ]
-      }
+      "categories": [
+        {
+          "code": "1905",
+          "category": "1905"
+        },
+        {
+          "code": "1906",
+          "category": "1906"
+        },
+        {
+          "code": "1907",
+          "category": "1907"
+        },
+        {
+          "code": "1908",
+          "category": "1908"
+        },
+        {
+          "code": "1909",
+          "category": "1909"
+        },
+        {
+          "code": "1910",
+          "category": "1910"
+        },
+        {
+          "code": "1911",
+          "category": "1911"
+        },
+        {
+          "code": "1912",
+          "category": "1912"
+        },
+        {
+          "code": "1913",
+          "category": "1913"
+        },
+        {
+          "code": "1914",
+          "category": "1914"
+        },
+        {
+          "code": "1915",
+          "category": "1915"
+        },
+        {
+          "code": "1916",
+          "category": "1916"
+        },
+        {
+          "code": "1917",
+          "category": "1917"
+        },
+        {
+          "code": "1918",
+          "category": "1918"
+        },
+        {
+          "code": "1919",
+          "category": "1919"
+        },
+        {
+          "code": "1920",
+          "category": "1920"
+        },
+        {
+          "code": "1921",
+          "category": "1921"
+        },
+        {
+          "code": "1922",
+          "category": "1922"
+        },
+        {
+          "code": "1923",
+          "category": "1923"
+        },
+        {
+          "code": "1924",
+          "category": "1924"
+        },
+        {
+          "code": "1925",
+          "category": "1925"
+        },
+        {
+          "code": "1926",
+          "category": "1926"
+        },
+        {
+          "code": "1927",
+          "category": "1927"
+        },
+        {
+          "code": "1928",
+          "category": "1928"
+        },
+        {
+          "code": "1929",
+          "category": "1929"
+        },
+        {
+          "code": "1930",
+          "category": "1930"
+        },
+        {
+          "code": "1931",
+          "category": "1931"
+        },
+        {
+          "code": "1932",
+          "category": "1932"
+        },
+        {
+          "code": "1933",
+          "category": "1933"
+        },
+        {
+          "code": "1934",
+          "category": "1934"
+        },
+        {
+          "code": "1935",
+          "category": "1935"
+        },
+        {
+          "code": "1936",
+          "category": "1936"
+        },
+        {
+          "code": "1937",
+          "category": "1937"
+        },
+        {
+          "code": "1938",
+          "category": "1938"
+        },
+        {
+          "code": "1939",
+          "category": "1939"
+        },
+        {
+          "code": "1940",
+          "category": "1940"
+        },
+        {
+          "code": "1941",
+          "category": "1941"
+        },
+        {
+          "code": "1942",
+          "category": "1942"
+        },
+        {
+          "code": "1943",
+          "category": "1943"
+        },
+        {
+          "code": "1944",
+          "category": "1944"
+        },
+        {
+          "code": "1945",
+          "category": "1945"
+        },
+        {
+          "code": "1946",
+          "category": "1946"
+        },
+        {
+          "code": "1947",
+          "category": "1947"
+        },
+        {
+          "code": "1948",
+          "category": "1948"
+        },
+        {
+          "code": "1949",
+          "category": "1949"
+        },
+        {
+          "code": "1950",
+          "category": "1950"
+        },
+        {
+          "code": "1951",
+          "category": "1951"
+        },
+        {
+          "code": "1952",
+          "category": "1952"
+        },
+        {
+          "code": "1953",
+          "category": "1953"
+        },
+        {
+          "code": "1954",
+          "category": "1954"
+        },
+        {
+          "code": "1955",
+          "category": "1955"
+        },
+        {
+          "code": "1956",
+          "category": "1956"
+        },
+        {
+          "code": "1957",
+          "category": "1957"
+        },
+        {
+          "code": "1958",
+          "category": "1958"
+        },
+        {
+          "code": "1959",
+          "category": "1959"
+        },
+        {
+          "code": "1960",
+          "category": "1960"
+        },
+        {
+          "code": "1961",
+          "category": "1961"
+        },
+        {
+          "code": "1962",
+          "category": "1962"
+        },
+        {
+          "code": "1963",
+          "category": "1963"
+        },
+        {
+          "code": "1964",
+          "category": "1964"
+        },
+        {
+          "code": "1965",
+          "category": "1965"
+        },
+        {
+          "code": "1966",
+          "category": "1966"
+        },
+        {
+          "code": "1967",
+          "category": "1967"
+        },
+        {
+          "code": "1968",
+          "category": "1968"
+        },
+        {
+          "code": "1969",
+          "category": "1969"
+        },
+        {
+          "code": "1970",
+          "category": "1970"
+        },
+        {
+          "code": "1971",
+          "category": "1971"
+        },
+        {
+          "code": "1972",
+          "category": "1972"
+        },
+        {
+          "code": "1973",
+          "category": "1973"
+        },
+        {
+          "code": "1974",
+          "category": "1974"
+        },
+        {
+          "code": "1975",
+          "category": "1975"
+        },
+        {
+          "code": "1976",
+          "category": "1976"
+        },
+        {
+          "code": "1977",
+          "category": "1977"
+        },
+        {
+          "code": "1978",
+          "category": "1978"
+        },
+        {
+          "code": "1979",
+          "category": "1979"
+        },
+        {
+          "code": "1980",
+          "category": "1980"
+        },
+        {
+          "code": "1981",
+          "category": "1981"
+        },
+        {
+          "code": "1982",
+          "category": "1982"
+        },
+        {
+          "code": "1983",
+          "category": "1983"
+        },
+        {
+          "code": "1984",
+          "category": "1984"
+        },
+        {
+          "code": "1985",
+          "category": "1985"
+        },
+        {
+          "code": "1986",
+          "category": "1986"
+        },
+        {
+          "code": "1987",
+          "category": "1987"
+        },
+        {
+          "code": "1988",
+          "category": "1988"
+        },
+        {
+          "code": "1989",
+          "category": "1989"
+        },
+        {
+          "code": "1990",
+          "category": "1990"
+        },
+        {
+          "code": "1991",
+          "category": "1991"
+        },
+        {
+          "code": "1992",
+          "category": "1992"
+        },
+        {
+          "code": "1993",
+          "category": "1993"
+        },
+        {
+          "code": "1994",
+          "category": "1994"
+        },
+        {
+          "code": "1995",
+          "category": "1995"
+        },
+        {
+          "code": "1996",
+          "category": "1996"
+        },
+        {
+          "code": "1997",
+          "category": "1997"
+        },
+        {
+          "code": "1998",
+          "category": "1998"
+        },
+        {
+          "code": "1999",
+          "category": "1999"
+        },
+        {
+          "code": "2000",
+          "category": "2000"
+        },
+        {
+          "code": "2001",
+          "category": "2001"
+        },
+        {
+          "code": "2002",
+          "category": "2002"
+        },
+        {
+          "code": "2003",
+          "category": "2003"
+        },
+        {
+          "code": "2004",
+          "category": "2004"
+        },
+        {
+          "code": "2005",
+          "category": "2005"
+        },
+        {
+          "code": "2006",
+          "category": "2006"
+        },
+        {
+          "code": "2007",
+          "category": "2007"
+        },
+        {
+          "code": "2008",
+          "category": "2008"
+        },
+        {
+          "code": "2009",
+          "category": "2009"
+        },
+        {
+          "code": "2010",
+          "category": "2010"
+        },
+        {
+          "code": "2011",
+          "category": "2011"
+        },
+        {
+          "code": "2012",
+          "category": "2012"
+        },
+        {
+          "code": "2013",
+          "category": "2013"
+        },
+        {
+          "code": "2014",
+          "category": "2014"
+        },
+        {
+          "code": "2015",
+          "category": "2015"
+        },
+        {
+          "code": "2016",
+          "category": "2016"
+        },
+        {
+          "code": "2017",
+          "category": "2017"
+        },
+        {
+          "code": "2018",
+          "category": "2018"
+        },
+        {
+          "code": "2019",
+          "category": "2019"
+        },
+        {
+          "code": "2020",
+          "category": "2020"
+        },
+        {
+          "code": "2021",
+          "category": "2021"
+        },
+        {
+          "code": "&&&&",
+          "category": "Not stated"
+        },
+        {
+          "code": "@@@@",
+          "category": "Not applicable"
+        },
+        {
+          "code": "VVVV",
+          "category": "Overseas visitor"
+        }
+      ]
     },
     {
       "code": "YARRP",
