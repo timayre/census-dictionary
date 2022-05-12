@@ -8,12 +8,11 @@ import json
 
 
 def main(save='../census-dict-2021.json', exc='exceptions.json'):
-    ## Excluding variable pages that are not in the usual format
     with open(exc) as f_in:
         exceptions = json.load(f_in)
     vars_info = load_index()
     for var_info in vars_info:
-        varcode =  var_info['code']
+        varcode = var_info['code']
         multi = exceptions.get(varcode, {}).get('multitable')
         file = exceptions.get(varcode, {}).get('file')
         skip = exceptions.get(varcode, {}).get('skip')
@@ -39,6 +38,11 @@ def main(save='../census-dict-2021.json', exc='exceptions.json'):
 
 
 def load_index(save='htmls/varindex.html', overwrite=False):
+    """Read or download index HTML file and return extracted variables table
+    
+    Loads file from `save` location if present, otherwise downloads from
+    `https://www.abs.gov.au/census/guide-census-data/census-dictionary/2021/variables-index`.
+    """
     ## Note the 'download as csv' option on the page does not include the 
     ## linked urls.
     ## They look like they are probably derivable from the other fields,
@@ -56,6 +60,7 @@ def load_index(save='htmls/varindex.html', overwrite=False):
 
 
 def parse_index(index_page_text):
+    """Extract data from variables table, including hrefs"""
     soup = bs4.BeautifulSoup(index_page_text, 'html.parser')
     table = soup.find(class_='complex-table')
     rows = table.tbody.find_all('tr')[1:]
@@ -65,7 +70,7 @@ def parse_index(index_page_text):
         vals = [elem.text.strip() for elem in row.find_all('td')]
         code, name, topic, release, new, *_ = vals + [''] 
             ## Add an extra item because the last column ('New') does not have a 
-            ## `td` element if blank
+            ## `td` element when blank
         url = f'https://www.abs.gov.au{row.td.a["href"]}'
         var = {'code': code, 'name': name, 'topic': topic, 'release': release,
                'new_2021': 'New' in new, 'url': url}
@@ -74,6 +79,11 @@ def parse_index(index_page_text):
 
 
 def load_var_categories(var_info, save='htmls', overwrite=False, multi=False):
+    """Read or download a variable's HTML file and return extracted categories table
+    
+    Loads file from `save` location if present, otherwise downloads from url
+    in `var_info`.
+    """
     save_file = os.path.join(save, f'{var_info["code"]}.html') if save else ''
     if overwrite or not os.path.exists(save_file):
         text = requests.get(var_info['url']).text
@@ -107,6 +117,7 @@ def parse_category_table(var_page_text, multi=False):
 
 
 def format_categories_simple(category_table, check_headings=False):
+    """Handle the normal two-column, rectangular table case"""
     if check_headings:
         headings = category_table['head']
         if headings[0] != 'Code' or \
@@ -124,6 +135,9 @@ def format_categories_simple(category_table, check_headings=False):
 
 
 def format_rows(var_info, var_except):
+    """Simplify more complex tables and special cases
+    
+    ... to allow tham to be handled by `format_categories_simple`."""
     rows = var_info['category_table']['rows']
     if var_except.get('indented'):
         rows = format_rows_indented(rows)
