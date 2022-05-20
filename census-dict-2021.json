@@ -18126,27 +18126,7 @@
       "topic": "Housing",
       "release": "June 2022",
       "new_2021": false,
-      "url": "https://www.abs.gov.au/census/guide-census-data/census-dictionary/2021/variables-topic/housing/mortgage-repayments-monthly-dollar-values-mred",
-      "category_table": {
-        "head": [
-          "Code",
-          "Category"
-        ],
-        "rows": [
-          [
-            "0000 \u2013 9999",
-            "$0 to $9,999 singly"
-          ],
-          [
-            "&&&&",
-            "Not stated"
-          ],
-          [
-            "@@@@",
-            "Not applicable"
-          ]
-        ]
-      }
+      "url": "https://www.abs.gov.au/census/guide-census-data/census-dictionary/2021/variables-topic/housing/mortgage-repayments-monthly-dollar-values-mred"
     },
     {
       "code": "MRERD",
@@ -26974,41 +26954,7 @@
       "topic": "Location",
       "release": "October 2022",
       "new_2021": false,
-      "url": "https://www.abs.gov.au/census/guide-census-data/census-dictionary/2021/variables-topic/location/place-work-powp",
-      "category_table": {
-        "head": [
-          "",
-          "Example 1",
-          "Example 2"
-        ],
-        "rows": [
-          [
-            "Scenario",
-            "A person spent the previous night in Brisbane with a friend and walked to work in Brisbane City. She then caught a train to her parent's place on the Gold Coast (which she also regarded as her usual place of residence) that evening where she was enumerated",
-            "A person mainly worked in Alice Springs in the week prior to the Census. However, the person moved to Sydney in the intervening week and took a ferry to their new place of employment"
-          ],
-          [
-            "Area of enumeration",
-            "Gold Coast",
-            "Manly"
-          ],
-          [
-            "Place of usual residence",
-            "Gold Coast",
-            "Manly"
-          ],
-          [
-            "Place of work",
-            "Brisbane City",
-            "Alice Springs"
-          ],
-          [
-            "Method of transport to work",
-            "Walked Only",
-            "Ferry"
-          ]
-        ]
-      }
+      "url": "https://www.abs.gov.au/census/guide-census-data/census-dictionary/2021/variables-topic/location/place-work-powp"
     },
     {
       "code": "PUR1P",
@@ -27016,51 +26962,7 @@
       "topic": "Location",
       "release": "October 2022",
       "new_2021": false,
-      "url": "https://www.abs.gov.au/census/guide-census-data/census-dictionary/2021/variables-topic/location/place-usual-residence-one-year-ago-pur1p",
-      "category_table": {
-        "head": [
-          "Code",
-          "Category"
-        ],
-        "rows": [
-          [
-            "",
-            "In addition to the ASGS geographic areas outlined above, the following categories are also included:"
-          ],
-          [
-            "9099",
-            "Capital city nfd"
-          ],
-          [
-            "9299",
-            "Overseas"
-          ],
-          [
-            "9499",
-            "No usual address"
-          ],
-          [
-            "9799",
-            "Migratory, off-shore and shipping"
-          ],
-          [
-            "9899",
-            "State/Territory nfd"
-          ],
-          [
-            "&&&&",
-            "Not stated"
-          ],
-          [
-            "@@@@",
-            "Not applicable"
-          ],
-          [
-            "VVVV",
-            "Overseas visitors"
-          ]
-        ]
-      }
+      "url": "https://www.abs.gov.au/census/guide-census-data/census-dictionary/2021/variables-topic/location/place-usual-residence-one-year-ago-pur1p"
     },
     {
       "code": "PUR5P",
@@ -27068,51 +26970,7 @@
       "topic": "Location",
       "release": "October 2022",
       "new_2021": false,
-      "url": "https://www.abs.gov.au/census/guide-census-data/census-dictionary/2021/variables-topic/location/place-usual-residence-five-years-ago-pur5p",
-      "category_table": {
-        "head": [
-          "Code",
-          "Category"
-        ],
-        "rows": [
-          [
-            "",
-            "In addition to the ASGS geographic areas outlined above, the following categories are also included:"
-          ],
-          [
-            "9099",
-            "Capital city nfd"
-          ],
-          [
-            "9299",
-            "Overseas"
-          ],
-          [
-            "9499",
-            "No usual residence"
-          ],
-          [
-            "9799",
-            "Migratory, off-shore and shipping"
-          ],
-          [
-            "9899",
-            "State/Territory nfd"
-          ],
-          [
-            "&&&&",
-            "Not stated"
-          ],
-          [
-            "@@@@",
-            "Not applicable"
-          ],
-          [
-            "VVVV",
-            "Overseas visitors"
-          ]
-        ]
-      }
+      "url": "https://www.abs.gov.au/census/guide-census-data/census-dictionary/2021/variables-topic/location/place-usual-residence-five-years-ago-pur5p"
     },
     {
       "code": "PURP",
@@ -27120,31 +26978,7 @@
       "topic": "Location",
       "release": "June 2022",
       "new_2021": false,
-      "url": "https://www.abs.gov.au/census/guide-census-data/census-dictionary/2021/variables-topic/location/place-usual-residence-purp",
-      "category_table": {
-        "head": [
-          "Code",
-          "Category"
-        ],
-        "rows": [
-          [
-            "",
-            "In addition to the ASGS geographic areas, the following categories are also included:"
-          ],
-          [
-            "",
-            "Migratory, off-shore and shipping"
-          ],
-          [
-            "",
-            "No usual address"
-          ],
-          [
-            "VVVV",
-            "Overseas visitor"
-          ]
-        ]
-      }
+      "url": "https://www.abs.gov.au/census/guide-census-data/census-dictionary/2021/variables-topic/location/place-usual-residence-purp"
     },
     {
       "code": "QALFP",
@@ -29996,27 +29830,7 @@
       "topic": "Housing",
       "release": "June 2022",
       "new_2021": false,
-      "url": "https://www.abs.gov.au/census/guide-census-data/census-dictionary/2021/variables-topic/housing/rent-weekly-dollar-values-rntd",
-      "category_table": {
-        "head": [
-          "Code",
-          "Category"
-        ],
-        "rows": [
-          [
-            "0001 \u2013 9999",
-            "$1 to $9,999 singly"
-          ],
-          [
-            "&&&&",
-            "Not stated"
-          ],
-          [
-            "@@@@",
-            "Not applicable"
-          ]
-        ]
-      }
+      "url": "https://www.abs.gov.au/census/guide-census-data/census-dictionary/2021/variables-topic/housing/rent-weekly-dollar-values-rntd"
     },
     {
       "code": "RNTRD",

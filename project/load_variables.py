@@ -22,13 +22,12 @@ def main(save='../census-dict-2021.json', exc='exceptions.json'):
         if varcode not in exceptions or not(skip or file):
             try:
                 var_info['categories'] = format_categories_simple(var_info['category_table'])
-                var_info.pop('category_table')
             except:
                 print(f'skipping {varcode=}')
         if file:
             with open(file) as f_in:
                 var_info['categories'] = json.load(f_in)
-                var_info.pop('category_table')
+        var_info.pop('category_table', None)
     census_dict = {'variables': vars_info}
     if save:
         with open(save, 'w') as f_out:
