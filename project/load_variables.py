@@ -23,7 +23,7 @@ def main(save='../census-dict-2021.json', exc='exceptions.json'):
             try:
                 var_info['categories'] = format_categories_simple(var_info['category_table'])
             except:
-                print(f'skipping {varcode=}')
+                print(f'skipping {varcode=}', file=sys.stderr)
         if file:
             with open(file) as f_in:
                 var_info['categories'] = json.load(f_in)
