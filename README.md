@@ -44,7 +44,7 @@ The JSON version of the metadata for the variable "Australian citizenship" (`CIT
 
 Image of the [*Australian citizenship (CITP)*][citp] HTML page:
 
-![](citp.zoom.80pct.border.png)
+![](project/img/citp.zoom.80pct.border.png)
 
 (The release date "15/10/2021" on the webpage refers that of the Census Dictionary, whereas "June 2022" above refers to the release of the actual Census results for CITP.)
 
