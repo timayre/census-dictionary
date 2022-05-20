@@ -8424,7 +8424,7 @@
         },
         {
           "code": "&",
-          "category": "Not stated \u2013 birthplace for either or both parents not stated"
+          "category": "Not stated - birthplace for either or both parents not stated"
         },
         {
           "code": "V",
@@ -11068,7 +11068,7 @@
       "categories": [
         {
           "code": "041",
-          "category": "Has dementia (including Alzheimer\u2019s)"
+          "category": "Has dementia (including Alzheimer's)"
         },
         {
           "code": "042",
@@ -12514,19 +12514,19 @@
         },
         {
           "code": "2",
-          "category": "Workplace address imputed \u2013 SA2 stated"
+          "category": "Workplace address imputed - SA2 stated"
         },
         {
           "code": "3",
-          "category": "Workplace address imputed\u00a0\u2013 Capital city stated"
+          "category": "Workplace address imputed - Capital city stated"
         },
         {
           "code": "4",
-          "category": "Workplace address imputed \u2013 State/Territory stated"
+          "category": "Workplace address imputed - State/Territory stated"
         },
         {
           "code": "5",
-          "category": "Workplace address imputed \u2013 Not stated"
+          "category": "Workplace address imputed - Not stated"
         },
         {
           "code": "@",
@@ -12548,15 +12548,15 @@
       "categories": [
         {
           "code": "01",
-          "category": "Not imputed \u2013 state/territory, SA2 and SA1 stated"
+          "category": "Not imputed - state/territory, SA2 and SA1 stated"
         },
         {
           "code": "02",
-          "category": "SA1 imputed \u2013 state/territory and SA2 stated"
+          "category": "SA1 imputed - state/territory and SA2 stated"
         },
         {
           "code": "03",
-          "category": "SA2 and SA1 imputed \u2013 state/territory and/or capital city provided"
+          "category": "SA2 and SA1 imputed - state/territory and/or capital city provided"
         },
         {
           "code": "04",
@@ -17956,11 +17956,11 @@
         },
         {
           "code": "51",
-          "category": "Employer \u2013 Government (includes Defence Housing Australia)"
+          "category": "Employer - Government (includes Defence Housing Australia)"
         },
         {
           "code": "52",
-          "category": "Employer \u2013 other employer"
+          "category": "Employer - other employer"
         },
         {
           "code": "&&",
@@ -18020,7 +18020,7 @@
         },
         {
           "code": "041",
-          "category": "Dementia (including Alzheimer\u2019s)"
+          "category": "Dementia (including Alzheimer's)"
         },
         {
           "code": "051",
@@ -19416,7 +19416,7 @@
         },
         {
           "code": "02",
-          "category": "Nurses\u2019 quarters"
+          "category": "Nurses' quarters"
         },
         {
           "code": "03",
@@ -29910,7 +29910,7 @@
         },
         {
           "code": "18",
-          "category": "$475 \u2013 499"
+          "category": "$475 - 499"
         },
         {
           "code": "19",
@@ -30046,7 +30046,7 @@
         },
         {
           "code": "4",
-          "category": "Owner manager of incorporated enterprise \u2013 employees not stated"
+          "category": "Owner manager of incorporated enterprise - employees not stated"
         },
         {
           "code": "5",
@@ -30058,7 +30058,7 @@
         },
         {
           "code": "7",
-          "category": "Owner manager of unincorporated enterprise \u2013 employees not stated"
+          "category": "Owner manager of unincorporated enterprise - employees not stated"
         },
         {
           "code": "8",
@@ -30360,27 +30360,27 @@
         },
         {
           "code": "3",
-          "category": "Rented:\u00a0 Real estate agent"
+          "category": "Rented: Real estate agent"
         },
         {
           "code": "4",
-          "category": "Rented:\u00a0 State or territory housing authority"
+          "category": "Rented: State or territory housing authority"
         },
         {
           "code": "5",
-          "category": "Rented:\u00a0 Community housing provider"
+          "category": "Rented: Community housing provider"
         },
         {
           "code": "6",
-          "category": "Rented:\u00a0 Person not in same household"
+          "category": "Rented: Person not in same household"
         },
         {
           "code": "7",
-          "category": "Rented:\u00a0 Other landlord type"
+          "category": "Rented: Other landlord type"
         },
         {
           "code": "8",
-          "category": "Rented:\u00a0 Landlord type not stated"
+          "category": "Rented: Landlord type not stated"
         },
         {
           "code": "9",
@@ -30626,7 +30626,7 @@
         },
         {
           "code": "29",
-          "category": "Primary \u2013 not further defined"
+          "category": "Primary - not further defined"
         },
         {
           "code": "31",
@@ -30642,7 +30642,7 @@
         },
         {
           "code": "39",
-          "category": "Secondary \u2013 not further defined"
+          "category": "Secondary - not further defined"
         },
         {
           "code": "41",
@@ -30650,11 +30650,11 @@
         },
         {
           "code": "42",
-          "category": "Tertiary \u2013 university or other higher education"
+          "category": "Tertiary - university or other higher education"
         },
         {
           "code": "49",
-          "category": "Tertiary \u2013 not further defined"
+          "category": "Tertiary - not further defined"
         },
         {
           "code": "60",
@@ -30688,39 +30688,39 @@
         },
         {
           "code": "21",
-          "category": "Primary \u2013 Government"
+          "category": "Primary - Government"
         },
         {
           "code": "22",
-          "category": "Primary \u2013 Catholic"
+          "category": "Primary - Catholic"
         },
         {
           "code": "23",
-          "category": "Primary \u2013 other non-Government"
+          "category": "Primary - other non-Government"
         },
         {
           "code": "29",
-          "category": "Primary \u2013 not further defined"
+          "category": "Primary - not further defined"
         },
         {
           "code": "31",
-          "category": "Secondary \u2013 Government"
+          "category": "Secondary - Government"
         },
         {
           "code": "32",
-          "category": "Secondary \u2013 Catholic"
+          "category": "Secondary - Catholic"
         },
         {
           "code": "33",
-          "category": "Secondary \u2013 other non-Government"
+          "category": "Secondary - other non-Government"
         },
         {
           "code": "39",
-          "category": "Secondary \u2013 not further defined"
+          "category": "Secondary - not further defined"
         },
         {
           "code": "41",
-          "category": "Tertiary \u2013 vocational education (including TAFE and private training providers): full-time student: aged 15-24 years"
+          "category": "Tertiary - vocational education (including TAFE and private training providers): full-time student: aged 15-24 years"
         },
         {
           "code": "42",
@@ -30760,11 +30760,11 @@
         },
         {
           "code": "61",
-          "category": "Tertiary - not further defined:\u00a0 full-time student: aged 15-24 years"
+          "category": "Tertiary - not further defined: full-time student: aged 15-24 years"
         },
         {
           "code": "62",
-          "category": "Tertiary - not further defined:\u00a0 full-time student:\u00a0 aged 25 years and over"
+          "category": "Tertiary - not further defined: full-time student: aged 25 years and over"
         },
         {
           "code": "63",

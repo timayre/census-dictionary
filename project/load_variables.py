@@ -129,7 +129,7 @@ def format_categories_simple(category_table, check_headings=False):
     for row in category_table['rows']:
         if len(row) < 2:
             raise Exception('less than 2 columns')
-        cats.append({'code': row[0], 'category': row[1]})
+        cats.append({'code': row[0], 'category': replace_nonascii(row[1])})
     return cats
 
 
@@ -183,6 +183,16 @@ def expand_numeric(rows, conf):
             out_rows.append(row)
     return out_rows
 
+
+def replace_nonascii(string, check=False):
+    out = string.replace('\u2013', '-')\
+                .replace('\u2019', "'")\
+                .replace(' \u00a0', ' ')\
+                .replace('\u00a0 ', ' ')\
+                .replace('\u00a0', ' ')
+    if check:
+        out.encode('ascii')  # will throw exception
+    return out
 
 if __name__ == '__main__':
     main()
