@@ -185,6 +185,15 @@ def expand_numeric(rows, conf):
 
 
 def replace_nonascii(string, check=False):
+    """Replace selected characters
+    
+    - U+2013 = En Dash => `-`
+    - U+2019 = Right Single Quotation Mark => `'`
+    - U+00A0 = No-Break Space => ` ` or remove
+    
+    `check=True` will throw error if there are additional non-ascii characters
+    remaining
+    """
     out = string.replace('\u2013', '-')\
                 .replace('\u2019', "'")\
                 .replace(' \u00a0', ' ')\
@@ -193,6 +202,7 @@ def replace_nonascii(string, check=False):
     if check:
         out.encode('ascii')  # will throw exception
     return out
+
 
 if __name__ == '__main__':
     main()
