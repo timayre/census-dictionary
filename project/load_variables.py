@@ -16,7 +16,8 @@ def main(save='../census-dict-2021.json', exc='exceptions.json'):
         multi = exceptions.get(varcode, {}).get('multitable')
         file = exceptions.get(varcode, {}).get('file')
         skip = exceptions.get(varcode, {}).get('skip')
-        var_info['category_table'] = load_var_categories(var_info, multi=multi)
+        var_html = load_var_page(var_info)
+        var_info['category_table'] = parse_category_table(var_html, multi=multi)
         if varcode in exceptions:
             var_info['category_table']['rows'] = format_rows(var_info, exceptions[varcode])
         if varcode not in exceptions or not(skip or file):
@@ -67,7 +68,7 @@ def parse_index(index_page_text):
     vars_info = []
     for row in rows:
         vals = [elem.text.strip() for elem in row.find_all('td')]
-        code, name, topic, release, new, *_ = vals + [''] 
+        code, name, topic, release, new, *_ = vals + ['']
             ## Add an extra item because the last column ('New') does not have a 
             ## `td` element when blank
         url = f'https://www.abs.gov.au{row.td.a["href"]}'
@@ -77,7 +78,7 @@ def parse_index(index_page_text):
     return vars_info
 
 
-def load_var_categories(var_info, save='htmls', overwrite=False, multi=False):
+def load_var_page(var_info, save='htmls', overwrite=False, multi=False):
     """Read or download a variable's HTML file and return extracted categories table
     
     Loads file from `save` location if present, otherwise downloads from url
@@ -92,7 +93,7 @@ def load_var_categories(var_info, save='htmls', overwrite=False, multi=False):
     else:
         with open(save_file) as f_in:
             text = f_in.read()
-    return parse_category_table(text, multi)
+    return text
 
 
 def parse_category_table(var_page_text, multi=False):
