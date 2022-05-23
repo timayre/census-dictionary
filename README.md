@@ -52,14 +52,15 @@ Image of the [*Australian citizenship (CITP)*][citp] HTML page:
 
 - No categories are included for:
     - geographic variables ([`PURP`][purp], [`PUR1P`][pur1p], [`PUR5P`][pur5p] and [`POWP`][powp]) (the Census Dictionary only includes the supplementary codes for these anyway);
-    - `MRED` and `RNTD`, which take single-dollar values, up to $9,999.
-- Where a range of numeric (integer) values were specified as a single row in the source, these are expanded to list the individual values separately (with the exceptions of `MRED` and `RNTD` as specified above). For example, the source table for `AGEP` consists of a single row where "Code" is "000-115" and "Category" is "0 to 115 years of age singly"; in the JSON this is represented in the `categories` array as 116 separate elements ("0 years of age", "1 year of age", etc.).
+    - [`MRED`][mred] and [`RNTD`][rntd], which take single-dollar values, up to $9,999.
+- Where a range of numeric (integer) values were specified as a single row in the source, these are expanded to list the individual values separately (with the exceptions of `MRED` and `RNTD` as specified above). For example, the source table for [`AGEP`][agep] consists of a single row where "Code" is "000-115" and "Category" is "0 to 115 years of age singly"; in the JSON this is represented in the `categories` array as 116 separate elements ("0 years of age", "1 year of age", etc.).
 - Where a variable's classification includes multiple levels or nesting, only the lowest level is included (e.g.: for [`INDP`][indp], only 4-digit codes/categories ("classes") are included; for [`QALLP`][qallp], only 3-digit codes/categories ("detailed levels") are included).
-- For `CDCF`, `CDCUF`, `CDSF`, `CNDCF`, `FIDF` and `HIDD`, subheadings have been incorporated into individual category labels. For other variables, any subheadings have been ignored, as they are generally redundant.
-- A handful of different non-ASCII characters were present in category labels. As these have reasonable ASCII substitutes and the source is not particularly consistent in its use of these characters, even between categories the same variable (`TYPP`, for example), they have been replaced or removed as follows:
+- For [`CDCF`][cdcf], [`CDCUF`][cdcuf], [`CDSF`][cdsf], [`CNDCF`][cndcf], [`FIDF`][fidf] and [`HIDD`][hidd], subheadings have been incorporated into individual category labels. For other variables, any subheadings have been ignored, as they are generally redundant.
+- A handful of different non-ASCII characters were present in category labels. As these have reasonable ASCII substitutes and the source is not particularly consistent in its use of these characters, even between categories the same variable ([`TYPP`][typp], for example), they have been replaced or removed as follows:
     - `’` (Right Single Quotation Mark, U+2019) has been replaced by `'` (Apostrophe, U+0027)
     - `–` (En Dash, U+2013) has been replaced by `-` (Hyphen-Minus, U+002D)
     - No-Break Space (U+00A0) has been replaced by Space (U+0020), except where there is an adjacent Space, in which case it is removed 
+
 
 
 [census_dict_home]: https://www.abs.gov.au/census/guide-census-data/census-dictionary/2021
@@ -81,4 +82,25 @@ Image of the [*Australian citizenship (CITP)*][citp] HTML page:
 [qallp]: https://www.abs.gov.au/census/guide-census-data/census-dictionary/2021/variables-topic/education-and-training/non-school-qualification-level-education-qallp
 
 [indp]: https://www.abs.gov.au/census/guide-census-data/census-dictionary/2021/variables-topic/income-and-work/industry-employment-indp
+
+[mred]: https://www.abs.gov.au/census/guide-census-data/census-dictionary/2021/variables-topic/housing/mortgage-repayments-monthly-dollar-values-mred
+
+[rntd]: https://www.abs.gov.au/census/guide-census-data/census-dictionary/2021/variables-topic/housing/rent-weekly-dollar-values-rntd
+
+[agep]: https://www.abs.gov.au/census/guide-census-data/census-dictionary/2021/variables-topic/population/age-agep
+
+[typp]: https://www.abs.gov.au/census/guide-census-data/census-dictionary/2021/variables-topic/education-and-training/type-educational-institution-attending-typp
+
+[cdcf]: https://www.abs.gov.au/census/guide-census-data/census-dictionary/2021/variables-topic/household-and-families/count-dependent-children-family-cdcf
+
+[cdcuf]: https://www.abs.gov.au/census/guide-census-data/census-dictionary/2021/variables-topic/household-and-families/count-dependent-children-under-15-family-cdcuf
+
+[cdsf]: https://www.abs.gov.au/census/guide-census-data/census-dictionary/2021/variables-topic/household-and-families/count-dependent-students-15-24-years-family-cdsf
+
+[cndcf]: https://www.abs.gov.au/census/guide-census-data/census-dictionary/2021/variables-topic/household-and-families/count-non-dependent-children-family-cndcf
+
+[fidf]: https://www.abs.gov.au/census/guide-census-data/census-dictionary/2021/variables-topic/income-and-work/family-income-derivation-indicator-fidf
+
+[hidd]: https://www.abs.gov.au/census/guide-census-data/census-dictionary/2021/variables-topic/income-and-work/household-income-derivation-indicator-hidd
+
 
