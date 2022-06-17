@@ -7,7 +7,10 @@ This information has been scraped from the ABS website. It is based on ABS mater
 
 ## JSON file
 
-The metadata for all variables is contained in the file [`census-dict-2021.json`](census-dict-2021.json) (771 kB). (The code used to generate this can be found under the [`project`](./project/) directory.)
+The metadata for all variables is contained in the file [`census-dict-2021.json`](census-dict-2021.json). (The code used to generate this can be found under the [`project`](./project/) directory.)
+
+Not all information from the Census Dictionary pages are captured in the JSON.
+At present, only information from the [*Variables index*][var_index] and the code/category information from variables' pages are captured.
 
 ### Example
 
